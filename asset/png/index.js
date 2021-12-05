@@ -1,4 +1,4 @@
-export { default as device } from './iPhone11.png'
+export { default as device } from './iphone11.png'
 export { default as device2 } from './device2.png'
 export { default as footerBg } from './footerBg.png'
 export { default as SwapMonkey } from './swapMonkey.png'
