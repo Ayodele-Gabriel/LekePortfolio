@@ -82,6 +82,9 @@ export default Styled.div`
         padding-bottom: 4em;
         h1 {
             font-size: 4.3rem;
+            ${maxQuery('sm')} {
+                    font-size: 2.5rem;
+                }
             font-weight: 700;
             line-height: 98.6%;
             color: #FFFDFD;
@@ -428,6 +431,9 @@ export default Styled.div`
             font-weight: normal;
             font-size: 2.4rem;
             max-width: 45rem;
+            ${maxQuery('sm')} {
+                    font-size: 1.5rem;
+                }
         }
         p {
             color: #FFFDFD;
@@ -499,13 +505,11 @@ export default Styled.div`
             }
         }
         div.img-container {
-            background: blue;
             display: flex;
+            padding: 4em;
             justify-content: center;
             img {
-                width: 381.09px!important;
-                height: 613.18px;
-                background: pink;
+
             }
         }
     }
@@ -532,6 +536,9 @@ export default Styled.div`
                 }
                 h1 {
                     font-size: 1.8rem;
+                    ${maxQuery('sm')} {
+                        font-size: 1.5rem;
+                    }
                     font-size: 600;
                     color: #FFFDFD;
                     margin-bottom: 0.25em;

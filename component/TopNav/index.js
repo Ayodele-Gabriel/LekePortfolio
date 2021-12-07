@@ -3,6 +3,13 @@ import { Avatar } from '../../asset/convertedSvgs'
 import Container from './styles'
 
 const TopNav = () => {
+  const handleScrollToBottom = () => {
+    window.scrollTo({
+      top: document.body.scrollHeight,
+      behavior: 'smooth',
+    })
+  }
+
   return (
     <Container>
       <div className="content--container">
@@ -22,9 +29,9 @@ const TopNav = () => {
             <Link href="/about">
               <a>About</a>
             </Link>
-            <Link href="/" className="withCircle">
-              <a>Let's Chat</a>
-            </Link>
+            <button className="withCircle" onClick={handleScrollToBottom}>
+              Let's Chat
+            </button>
           </nav>
         </div>
       </div>

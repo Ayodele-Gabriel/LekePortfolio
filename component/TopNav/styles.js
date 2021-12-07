@@ -1,7 +1,7 @@
 import Styled from 'styled-components'
 
 export default Styled.div`
-    position: fixed;
+    position: absolute;
     top: 0px;
     left: 0px;
     width: 100vw;
@@ -33,15 +33,22 @@ export default Styled.div`
       }
       nav {
         display: flex;
+        align-items: center;
         grid-gap: 1.5em;
-        .withCircle {
-            background: blue;
-        }
-        a {
+        a, button {
           font-size: 1rem;
+          border: none;
+          cursor: pointer;
+          background: transparent;
           &:focus, &:hover {
             text-decoration: underline;
           }
+        }
+        .withCircle {
+          color: #FFFDFD;
+          border: 1px solid #FFFFFF;
+          border-radius: 500px 500px 500px 500px;
+          padding: 1em;
         }
       }
     }

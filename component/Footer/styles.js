@@ -1,10 +1,10 @@
 import Styled from 'styled-components'
-import { footerBg } from '../../asset/png'
+import { maxQuery } from '../../helpers'
+import { footerBg } from '/asset/png'
 
 export default Styled.div`
       position: relative;
       padding: 4em 0px;
-      /* margin-top: 4em; */
       &:after {
           content: "";
           top: 0px;
@@ -14,15 +14,9 @@ export default Styled.div`
           left: 50%;
           transform: translateX(-50%);
           z-index: 1;
-          background-image: url(${footerBg});
-          background-color: black;
+          background-image: url("/asset/png/footerBg.png");
           background-position: center center;
-          background-size: cover;
-          /* background-repeat: no-repeat; */
-          /* background-size: cover; */
-          /* background-color: black; */
-          /* mix-blend-mode: normal;
-          opacity: 0.1; */
+          background-size: 100vw;
       }
       * {
           position: relative;
@@ -30,6 +24,9 @@ export default Styled.div`
       }
       h1 {
           font-size: 2.5rem;
+            ${maxQuery('sm')} {
+                        font-size: 1.2rem;
+                    }
           margin-bottom: 0.5em;
               background: linear-gradient(104.62deg, #12C2E9 8.83%, #C471ED 55.36%, #F64F59 109.3%),
           linear-gradient(0deg, #FFFDFD, #FFFDFD);

@@ -33,6 +33,7 @@ import {
   fluxGroup,
   Samuel,
   PieGraph,
+  fluxBrowser,
   fluxAuth,
   SwapMonkeyWithFrame,
 } from '../asset/png'
@@ -274,7 +275,7 @@ export default function Flux() {
           </div>
         </div>
         <div className="img-container">
-          <Image src={fluxAuth} alt="fluxAuth" />
+          <Image src={fluxBrowser} alt="fluxAuth" />
         </div>
       </section>
       <section className="section-impact">
