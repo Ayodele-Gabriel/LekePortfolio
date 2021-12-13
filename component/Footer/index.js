@@ -8,13 +8,13 @@ const Footer = () => {
     <Container>
       <h1>Get in touch</h1>
       <p>
-        <a href="mailto:hello@lekeayodele.com">
-          hello@lekeayodele.com <FiArrowUpRight />
+        <a href="mailto:aygideon14@gmail.com ">
+          aygideon14@gmail.com <FiArrowUpRight />
         </a>
       </p>
       <p>
-        <a href="tell:+12 345 678 9012">
-          +12 345 678 9012
+        <a href="tell:+234 703 180 6369">
+          +234 703 180 6369
           <FiArrowUpRight />
         </a>
       </p>
