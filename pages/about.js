@@ -19,17 +19,18 @@ export default function About() {
         </h1>
         <hr />
         <h3 className="about">
-          <span>ABOUT ME</span> Lorem ipsum dolor sit amet, consectetur
-          adipiscing elit. Donec urna ante, pulvinar eget maximus in, ultrices
-          at quam. Donec dictum sagittis enim, venenatis cursus lacus. Morbi
-          efficitur eleifend elit nec mollis. Donec eu facilisis nunc, quis
-          placerat nibh. Suspendisse sed tellus vitae lorem fringilla interdum
-          ac pretium justo.{' '}
+          <span>ABOUT ME</span> I am a digital product designer focused on
+          creating amazing and intuitive experiences for users. I do this while
+          ensuring it solves business and product goals. I have a strong
+          background in Fintech and I possess a smooth collaboration workflow
+          with engineering teams. I am also curious about how emerging
+          technologies affect our daily lives and the strong ability it
+          possesses to deepen human experiences.
         </h3>
         <ol className="details">
           <li>
             <span>Currently in</span>
-            <span>Coventry, UK</span>
+            <span>London, UK</span>
           </li>
           <li>
             <span>Focused on</span>

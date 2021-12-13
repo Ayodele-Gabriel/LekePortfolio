@@ -1,14 +1,19 @@
 const licenseCertification = [
   {
-    title: 'Mobile User Experience (UX) Design',
+    title: 'Coventry University',
     details: (
       <>
-        Interaction Design Foundation (IxDF) Issued Feb 2020 · No Expiration
-        Date
+        Master of Arts - MA, Product Design Innovation
         <br />
-        Credential ID 56591 <br />
+        Sep 2021 - Aug 2022 <br />
       </>
     ),
+    date: '2020',
+  },
+  ,
+  {
+    title: 'Mobile User Experience (UX) Design',
+    details: <>Interaction Design Foundation (IxDF)</>,
     date: '2020',
   },
   {
@@ -16,10 +21,6 @@ const licenseCertification = [
     details: (
       <>
         Interaction Design Foundation (IxDF)
-        <br />
-        Issued Dec 2019 · No Expiration Date
-        <br />
-        Credential ID 56591
         <br />
       </>
     ),
@@ -31,10 +32,6 @@ const licenseCertification = [
       <>
         Interaction Design Foundation (IxDF)
         <br />
-        Issued Dec 2019 · No Expiration Date
-        <br />
-        Credential ID 56591
-        <br />
       </>
     ),
     date: '2019',
@@ -44,10 +41,6 @@ const licenseCertification = [
     details: (
       <>
         Interaction Design Foundation (IxDF)
-        <br />
-        Issued Nov 2019· No Expiration Date
-        <br />
-        Credential ID 56591
         <br />
       </>
     ),

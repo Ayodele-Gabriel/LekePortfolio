@@ -6,7 +6,7 @@ const workHistory = [
     date: '2020 - 2021',
   },
   {
-    title: 'Product Manager @ Flux',
+    title: 'Product Manager @ Native',
     details: (
       <>
         Work on mobile apps and other breakdown of app building process, from
@@ -60,44 +60,44 @@ const workHistory = [
     ),
     date: '2019',
   },
-  {
-    title: 'Resident Director @ Campace',
-    details: (
-      <>
-        - Organize biweekly meetings and Q&A sessions to discuss various aspects
-        of design
-        <br />
-        <br />
-        - Participate in the recruitment and interview process of prospective
-        members into the club
-        <br />
-        <br />
-        - Organize design software training (Learn from design gurus) to equip
-        the community of designers around in the use of design tools to achieve
-        great work
-        <br />
-        <br />
-        - Maintain and Upholding the vision and mission of the club of equipping
-        designers with the best tools.
-        <br />
-        <br />
-        - Ensuring members of the community are getting better as designers
-        <br />
-        <br />
-        - Organize the annual club conference (Design IQ) aimed at bringing the
-        best of designers around to speak to teeming designers alike.
-        <br />
-        <br />
-      </>
-    ),
-    date: '2018 - 2019',
-  },
-  {
-    title: 'Summer Intern @ FourthCanvas',
-    details:
-      'Took on projects on political campaigns  worked closely alongside talent lead to work on projects Joined in company design sprint sessions ',
-    date: '2018',
-  },
+  // {
+  //   title: 'Resident Director @ Campace',
+  //   details: (
+  //     <>
+  //       - Organize biweekly meetings and Q&A sessions to discuss various aspects
+  //       of design
+  //       <br />
+  //       <br />
+  //       - Participate in the recruitment and interview process of prospective
+  //       members into the club
+  //       <br />
+  //       <br />
+  //       - Organize design software training (Learn from design gurus) to equip
+  //       the community of designers around in the use of design tools to achieve
+  //       great work
+  //       <br />
+  //       <br />
+  //       - Maintain and Upholding the vision and mission of the club of equipping
+  //       designers with the best tools.
+  //       <br />
+  //       <br />
+  //       - Ensuring members of the community are getting better as designers
+  //       <br />
+  //       <br />
+  //       - Organize the annual club conference (Design IQ) aimed at bringing the
+  //       best of designers around to speak to teeming designers alike.
+  //       <br />
+  //       <br />
+  //     </>
+  //   ),
+  //   date: '2018 - 2019',
+  // },
+  // {
+  //   title: 'Summer Intern @ FourthCanvas',
+  //   details:
+  //     'Took on projects on political campaigns  worked closely alongside talent lead to work on projects Joined in company design sprint sessions ',
+  //   date: '2018',
+  // },
 ]
 
 export default workHistory

@@ -226,8 +226,7 @@ export default function Flux() {
               <p>
                 Also, an utility payment feature was launched to help users make
                 bill payment like electricity, cable TV and Internet
-                subscriptions via the app. Bill and Utility payments features
-                received a encouraging results with 50% of it coming in the
+                subscriptions via the app.{' '}
               </p>
             </header>
             <div className="img-container">
@@ -251,9 +250,10 @@ export default function Flux() {
           navigate with ease. Of the features available on the app, wallet
           transfers and crypto transactions reported the most usage. This meant
           one thing for the design team, people need to be able to access this
-          segment faster to achieve what they need to do. What we did was add a
-          “debit card” method to add money. Support tickets for funding related
-          issues went down from 52 per day to 4.
+          segment faster to achieve what they need to do. We added a &quot;Add
+          money with debit card&ldquo; feature to give more options to users to
+          add money other than their virtual account numbers. This led to a
+          significant drop in daily funding related support ticket from 52 to 4
         </p>
         <Image src={fluxGroup} alt="flux group" />
       </section>
@@ -266,8 +266,7 @@ export default function Flux() {
             <p>
               I went ahead to create a brand new website to showcase the
               features added to the app. Special attention was given to the use
-              of bold text, imagery and graphic elements. Comments from our
-              social media
+              of bold text, imagery and graphic elements.
             </p>
             <a href="http://iflux.app/" target="_blank" rel="noreferrer">
               Visit Website <BsArrowRight />
@@ -293,13 +292,13 @@ export default function Flux() {
               icon: CardGroup,
               title: '30%',
               details:
-                'of our customers create virtual cards with 25% funding right after they create the cards.',
+                'of our users created virtual cards immediately after launch with 25% funding right after they created the cards',
             },
             {
               icon: SyncGroup,
               title: '0% to 40%',
               details:
-                'By adding this method, the share of customer funding went from 100% to 60% via bank transfer and 0% to 40% via debit card.',
+                'By adding the "fund wallet with debit card", the share of customer funding via bank transfer to virtual accounts went from 100% to 60% and via debit card from 0% to 40%',
             },
           ].map((item) => (
             <div className="impact-item" key={item.title}>
