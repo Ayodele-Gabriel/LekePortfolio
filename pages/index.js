@@ -97,7 +97,7 @@ export default function Home() {
                   </span>
                 </li>
               </ol>
-              <Link href="/swapmonkey">
+              <Link href="/flux">
                 <a>
                   <GradientTxt>View Project</GradientTxt>
                   <Arrow direction="right" />
@@ -133,7 +133,7 @@ export default function Home() {
                   </span>
                 </li>
               </ol>
-              <Link href="/flux">
+              <Link href="/swapmonkey">
                 <a>
                   <GradientTxt>View Project</GradientTxt>
                   <Arrow direction="right" />
