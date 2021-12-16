@@ -1,13 +1,7 @@
 const licenseCertification = [
   {
     title: 'Coventry University',
-    details: (
-      <>
-        Master of Arts - MA, Product Design Innovation
-        <br />
-        Sep 2021 - Aug 2022 <br />
-      </>
-    ),
+    details: <>Master of Arts - MA, Product Design Innovation</>,
     date: '2020',
   },
   ,
