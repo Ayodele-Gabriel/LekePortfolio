@@ -47,8 +47,8 @@ export default function Flux() {
     <Container>
       <section className="jumbotron--item">
         <h1>
-          "Redesigning the identification and payment experience for Nigeria’s
-          foremost neobank".
+          &quot;Redesigning the identification and payment experience for
+          Nigeria&#34;s foremost neobank&ldquo;.
         </h1>
         <div className="item-row">
           <div>
