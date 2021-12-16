@@ -6,7 +6,7 @@ const workHistory = [
     date: '2020 - 2021',
   },
   {
-    title: 'Product Manager @ Native',
+    title: 'UI/UX Designer @ Native',
     details: (
       <>
         Work on mobile apps and other breakdown of app building process, from

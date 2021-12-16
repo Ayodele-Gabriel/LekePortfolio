@@ -47,8 +47,8 @@ export default function Flux() {
     <Container>
       <section className="jumbotron--item">
         <h1>
-          Building Africa’s first decentralized peer-to peer cypto trading
-          platform
+          "Redesigning the identification and payment experience for Nigeria’s
+          foremost neobank".
         </h1>
         <div className="item-row">
           <div>

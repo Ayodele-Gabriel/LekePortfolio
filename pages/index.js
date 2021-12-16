@@ -77,8 +77,8 @@ export default function Home() {
             </div>
             <div className="col--2">
               <h1>
-                Building Africa’s first decentralized peer-to peer cypto trading
-                platform
+                Redesigning the identification and payment experience for
+                Nigeria’s foremost neobank
               </h1>
               <ol className="details">
                 <li>
@@ -119,7 +119,7 @@ export default function Home() {
               <ol className="details">
                 <li>
                   <span>Client</span>
-                  <span>FLUX</span>
+                  <span>SWAPMONKEY</span>
                 </li>
                 <li>
                   <span>Date</span>
