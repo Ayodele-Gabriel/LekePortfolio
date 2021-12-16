@@ -56,14 +56,12 @@ export default Styled.div`
         color: #FFFDFD;
         line-height: 125%;
         font-size: 1.4rem;
+        opacity: 1;
         ${maxQuery('<lg')} {
             font-size: 1.2rem;
         }
         font-weight: 400;
         margin-bottom: 1em;
-        span {
-            font-size: 0.8rem;
-        }
         & + a {
             background: linear-gradient(104.62deg, #12C2E9 8.83%, #C471ED 55.36%, #F64F59 109.3%),
             linear-gradient(0deg, #FFFDFD, #FFFDFD);
