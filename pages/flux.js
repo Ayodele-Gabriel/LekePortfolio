@@ -5,6 +5,7 @@ import Lottie from 'react-lottie'
 import { BsArrowRight } from 'react-icons/bs'
 import { FiArrowUpRight, FiArrowDownRight } from 'react-icons/fi'
 import { workHistory, licenseCertification } from '../constant'
+import dynamic from 'next/dynamic'
 import { GradientTxt } from '../component'
 import {
   Arrow,
@@ -39,6 +40,8 @@ import {
 } from '../asset/png'
 import Container from '../StyleComponents/flux'
 
+const FluxLink = dynamic(() => import('../component/FluxLink'), { ssr: false })
+
 export default function Flux() {
   return (
     <Container>
@@ -51,15 +54,27 @@ export default function Flux() {
           <div>
             <h3 className="about">
               Flux is a cross border payments company powered with crypto in
-              over 40 countries. We identified users&apos; inability to verify
-              their identity during the onboarding process with only about 6-10%
-              successful verification. This in turn led to 35% of users actively
+              over{' '}
+              <span
+                className="u-color_white"
+                style={{ opacity: 1, color: '#ffff' }}
+              >
+                40
+              </span>{' '}
+              countries. We identified users&apos; inability to verify their
+              identity during the onboarding process with only about{' '}
+              <span className="u-color_white">6-10%</span> successful
+              verification. This in turn led to{' '}
+              <span className="u-color_white">35%</span> of users actively
               transacting. We replaced unused features with new ones which
-              reduced churn rate from 70% to 30%. A move that led to a 5X boost
-              in transaction volume and a 60% increase in customer acquisition.
+              reduced churn rate from <span className="u-color_white">70%</span>{' '}
+              to <span className="u-color_white">30%</span>. A move that led to
+              a <span className="u-color_white">5X</span> boost in transaction
+              volume and a <span className="u-color_white">60%</span> increase
+              in customer acquisition.
             </h3>
             <button>
-              <GradientTxt>Download Flux</GradientTxt>
+              <FluxLink />
               <Arrow direction="right" />
             </button>
           </div>

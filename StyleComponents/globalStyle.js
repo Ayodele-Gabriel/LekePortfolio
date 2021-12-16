@@ -33,5 +33,10 @@ const GlobalStyle = createGlobalStyle`
         max-width: ${({ theme }) => theme.dimensions.maxWidth};
         margin: 0 auto;
       }
+    
+  /* Utilities */
+  .u-color_white {
+    color: #fff!important;
+  }
 `
 export default GlobalStyle

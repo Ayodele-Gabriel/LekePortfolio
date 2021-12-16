@@ -23,9 +23,9 @@ const TopNav = () => {
         </div>
         <div className="col--2">
           <nav>
-            <Link href="/">
+            {/* <Link href="/">
               <a>Home</a>
-            </Link>
+            </Link> */}
             <Link href="/about">
               <a>About</a>
             </Link>

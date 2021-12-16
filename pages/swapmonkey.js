@@ -35,7 +35,15 @@ export default function Flux() {
               safe, fast, and secure decentralized liquidity pool.
             </h3>
             <button>
-              <GradientTxt>Download SwapMonkey</GradientTxt>
+              <GradientTxt>
+                <a
+                  href="https://swapmonkey.io/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Download SwapMonkey
+                </a>
+              </GradientTxt>
               <Arrow direction="right" />
             </button>
           </div>
@@ -257,8 +265,8 @@ export default function Flux() {
         </h1>
         <div className="list-container">
           {[
-            'Educate user on what some terms mean using tooltips, short onboarding',
-            'Working with multiple currencies, exchange, conversion and quotes',
+            'I built my first ever comprehensive design system in Figma using insights from Legacy systems like Carbon Design system. This helped to scale down design production time by 5X. The system served as a go-to arsenal for new designers joining the team.',
+            'Building crypto projects involved currency conversions and quotes generation hence the need for clarity. By working on this project, I learnt how to integrate all these components in a clear and concise manner for users.',
           ].map((item, index) => (
             <div key={index} className="list-item">
               <CupPin />

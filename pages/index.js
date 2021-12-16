@@ -56,7 +56,7 @@ export default function Home() {
       <div className="content">
         <section className="section--about">
           <h3>
-            <span>ABOUT ME</span>I am a digital product designer focused on
+            <span>ABOUT ME</span> I am a digital product designer focused on
             creating amazing and intuitive experiences for users. I do this
             while ensuring it solves business and product goals. I have a strong
             background in Fintech and I possess a smooth collaboration workflow
