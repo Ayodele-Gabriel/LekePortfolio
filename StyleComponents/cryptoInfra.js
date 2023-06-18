@@ -31,7 +31,6 @@ export default Styled.div`
             max-width: 100%!important;
             margin: 0 auto!important;
             display: block!important;
-            max-width: 20rem!important;
         }
     }
 
@@ -306,8 +305,6 @@ export default Styled.div`
 
                      ${maxQuery("<lg")} {
                         img {
-                            max-width: 20rem!important;
-                            max-height: 100%!important;
                             display: block!important;
                         }
                     }
@@ -629,7 +626,6 @@ export default Styled.div`
         margin-top: 2em;
         position: relative;
         padding: 4em 0px;
-        /* padding-bottom: 14em; */
         ${minQuery("lg")} {
             padding-bottom: 41em;
         }

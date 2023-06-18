@@ -168,7 +168,7 @@ export default function Flux() {
           <div className="double-col">
             <div className="col">
               <Image src={thirtyFive5} alt="thirtyFive5" />
-              <h3>
+              <h3 style={{ marginTop: "2em" }}>
                 Over $350k in transaction volume within 3 months of launch
               </h3>
             </div>
