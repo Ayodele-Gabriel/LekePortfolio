@@ -1,6 +1,6 @@
-import { createGlobalStyle } from 'styled-components'
-import { normalize } from 'polished'
-import { maxQuery } from '../helpers'
+import { createGlobalStyle } from "styled-components";
+import { normalize } from "polished";
+import { maxQuery } from "../helpers";
 
 const GlobalStyle = createGlobalStyle`
   ${normalize};
@@ -10,7 +10,7 @@ const GlobalStyle = createGlobalStyle`
     body, html {
         font-family: 'Lato', sans-serif;
         font-family: 'Space Grotesk', sans-serif;
-        ${maxQuery('<lg')} {
+        ${maxQuery("<lg")} {
           font-size: 95%;
         }
     }
@@ -23,9 +23,9 @@ const GlobalStyle = createGlobalStyle`
     margin: 0px;
     padding: 0px;
     }
-    img {
-      max-width: 100%;
-      max-height: 100%;
+    img, video {
+      max-width: 100%!important;
+      max-height: 100%!important;
     }
     main.page--container {
         width: 90%;
@@ -38,5 +38,5 @@ const GlobalStyle = createGlobalStyle`
   .u-color_white {
     color: #fff!important;
   }
-`
-export default GlobalStyle
+`;
+export default GlobalStyle;

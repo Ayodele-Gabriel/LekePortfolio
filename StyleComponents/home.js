@@ -1,5 +1,5 @@
-import Styled from 'styled-components'
-import { minQuery, maxQuery } from '../helpers'
+import Styled from "styled-components";
+import { minQuery, maxQuery } from "../helpers";
 
 export default Styled.div`
     a {
@@ -56,13 +56,14 @@ export default Styled.div`
             line-height: 98.6%;
             margin-bottom: 0.5em;
             color: #FFFDFD;
-            ${maxQuery('sm')} {
+            ${maxQuery("sm")} {
                 font-size: 2rem;
             }
         }
     }
     div.content {
-        /* margin-top: 7rem; */
+        display: grid;
+        grid-gap: 3.5em;
         position: relative;
         &:after {
             content: "";
@@ -106,7 +107,7 @@ export default Styled.div`
         div.item--row {
             display: grid;
             grid-gap: 1em;
-            ${minQuery('lg')} {
+            ${minQuery("lg")} {
                 grid-template-columns: 30rem 1fr;
             }
             div.col--1 {
@@ -125,7 +126,7 @@ export default Styled.div`
                     line-height: 98.6%;
                     color: #FFFDFD;
                     margin-bottom: 1.5em;
-                    ${maxQuery('sm')} {
+                    ${maxQuery("sm")} {
                         font-size: 1.5rem;
                     }
                 }
@@ -142,10 +143,9 @@ export default Styled.div`
             }
         }
         &:last-of-type {
-            margin-top: 1.5em;
             padding-bottom: 4em;
             div.item--row {
-            ${minQuery('lg')} {
+            ${minQuery("lg")} {
                 grid-template-columns: 1fr 30rem;
             }
             div.col--1 {
@@ -154,4 +154,12 @@ export default Styled.div`
             }
         }
     }
-`
+
+    .section-payso {
+        div.item--row {
+            ${minQuery("lg")} {
+                grid-template-columns: 1fr 30rem!important;
+            }
+        }
+    }
+`;

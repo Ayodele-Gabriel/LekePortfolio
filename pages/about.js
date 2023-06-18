@@ -1,12 +1,5 @@
-import Head from 'next/head'
-import Image from 'next/image'
-import Link from 'next/link'
-import Lottie from 'react-lottie'
-import { BsArrowRight } from 'react-icons/bs'
-import { FiArrowUpRight } from 'react-icons/fi'
-import { workHistory, licenseCertification } from '../constant'
-import { device } from '../asset/png'
-import Container from '../StyleComponents/about'
+import { workHistory, licenseCertification } from "../constant";
+import Container from "../StyleComponents/about";
 
 export default function About() {
   return (
@@ -73,5 +66,5 @@ export default function About() {
         </div>
       </section>
     </Container>
-  )
+  );
 }

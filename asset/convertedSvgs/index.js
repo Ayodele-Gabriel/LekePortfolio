@@ -1,4 +1,5 @@
 export { default as Basket } from './Basket'
+export { default as BigQuote } from './BigQuote'
 export { default as Card } from './Card'
 export { default as CardGroup } from './CardGroup'
 export { default as ContactGroup } from './ContactGroup'
