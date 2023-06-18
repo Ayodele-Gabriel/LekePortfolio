@@ -1,17 +1,4 @@
 import Styled from "styled-components";
-import {
-  SwapMonkey,
-  MonkeyGroup,
-  SwapMonkeyWithFrame,
-  StarRow,
-  featured,
-  thirtyFive5,
-  Core,
-  Crypto,
-  Globe,
-  Integrations,
-  BankAcc,
-} from "../asset/png";
 import { minQuery, maxQuery } from "../helpers";
 
 export default Styled.div`

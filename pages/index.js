@@ -1,11 +1,9 @@
-import Head from "next/head";
 import Image from "next/image";
 import Link from "next/link";
 import Lottie from "react-lottie";
 import { GradientTxt } from "../component";
 import { Arrow } from "../asset/convertedSvgs";
 import { BsArrowRight } from "react-icons/bs";
-import { FiArrowUpRight } from "react-icons/fi";
 import { device, device2, Payso } from "../asset/png";
 import gradientAnimation from "../asset/lottie/434-gradient-animated-background.json";
 import Container from "../StyleComponents/home";
