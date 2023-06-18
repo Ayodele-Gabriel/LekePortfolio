@@ -122,7 +122,7 @@ export default function Flux() {
         <div className="row">
           <div className="col-1">
             <div>
-              <video autoplay loop>
+              <video autoPlay loop muted>
                 <source
                   src="https://res.cloudinary.com/djhh4kkml/video/upload/v1687103945/Leke/CaseStudy_ktdlmb.webm"
                   type="video/webm"
@@ -247,7 +247,7 @@ export default function Flux() {
             </div>
           </div>
           <div className="col col-2">
-            <video autoplay loop>
+            <video autoPlay loop muted>
               <source
                 src="https://res.cloudinary.com/djhh4kkml/video/upload/v1687103961/Leke/Protection_vxou7q.webm"
                 type="video/webm"
@@ -324,7 +324,7 @@ export default function Flux() {
                 </div>
               ))}
             </div>
-            <video autoplay loop>
+            <video autoPlay loop muted>
               <source
                 src="https://res.cloudinary.com/djhh4kkml/video/upload/v1687103945/Leke/CaseStudy_ktdlmb.webm"
                 type="video/webm"
