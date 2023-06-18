@@ -1,29 +1,18 @@
-import Head from "next/head";
 import Image from "next/image";
-import Link from "next/link";
-import Lottie from "react-lottie";
-import { BsArrowRight } from "react-icons/bs";
-import { FiArrowUpRight, FiArrowDownRight } from "react-icons/fi";
-import { workHistory, licenseCertification } from "../constant";
 import { GradientTxt } from "../component";
-import { Arrow, BigQuote, Card, Lists, CupPin } from "../asset/convertedSvgs";
+import { Arrow, BigQuote, Card, Lists } from "../asset/convertedSvgs";
 import {
-  SwapMonkey,
-  MonkeyGroup,
-  SwapMonkeyWithFrame,
   StarRow,
   featured,
   thirtyFive5,
   CryptoWebsites,
-  Core,
-  Crypto,
   Globe,
   Integrations,
   BankAcc,
 } from "../asset/png";
 import Container from "../StyleComponents/cryptoInfra";
 
-export default function Flux() {
+export default function CyptoInfra() {
   return (
     <Container>
       <section className="jumbotron--item">
@@ -358,8 +347,8 @@ export default function Flux() {
           from its Infrastructure service (Pay.so CORE)
         </h1>
         <div className="action-row">
-          <a href="Visit Pay.so website">Visit Pay.so website</a>
-          <a href="Visit Pay.so CORE website">Visit Pay.so CORE website</a>
+          <a href="https://www.pay.so/">Visit Pay.so website</a>
+          <a href="https://core.pay.so/">Visit Pay.so CORE website</a>
         </div>
         <div className="asset-row">
           <Image src={CryptoWebsites} alt="CryptoWebsites" />

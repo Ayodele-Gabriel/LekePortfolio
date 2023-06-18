@@ -1,23 +1,16 @@
-import Head from 'next/head'
-import Image from 'next/image'
-import Link from 'next/link'
-import Lottie from 'react-lottie'
-import { BsArrowRight } from 'react-icons/bs'
-import { FiArrowUpRight, FiArrowDownRight } from 'react-icons/fi'
-import { workHistory, licenseCertification } from '../constant'
-import { GradientTxt } from '../component'
-import { Arrow, CupPin } from '../asset/convertedSvgs'
+import Image from "next/image";
+import { FiArrowDownRight } from "react-icons/fi";
+import { GradientTxt } from "../component";
+import { Arrow, CupPin } from "../asset/convertedSvgs";
 import {
-  device,
   Chat,
   SwapMonkey,
   SwapMonkeyUSDT,
   SwapMonkey3,
   MonkeyGroup,
-  SwapWithFrame,
   SwapMonkeyWithFrame,
-} from '../asset/png'
-import Container from '../StyleComponents/swapmonkey'
+} from "../asset/png";
+import Container from "../StyleComponents/swapmonkey";
 
 export default function Flux() {
   return (
@@ -79,9 +72,9 @@ export default function Flux() {
             </p>
             <ol>
               {[
-                'How might we we facilitate crypto trading for users without breaking policy rules?',
-                'How might reinvigorates the rapidly declining transaction volume as a result of the ban?',
-                'How might we make trading crypto more secure and faster?',
+                "How might we we facilitate crypto trading for users without breaking policy rules?",
+                "How might reinvigorates the rapidly declining transaction volume as a result of the ban?",
+                "How might we make trading crypto more secure and faster?",
               ].map((item, index) => (
                 <li key={index}>{item}</li>
               ))}
@@ -100,18 +93,18 @@ export default function Flux() {
               </p>
             </div>
             <div className="content-item">
-              <div style={{ display: 'inline-flex', gridGap: '0.5em' }}>
+              <div style={{ display: "inline-flex", gridGap: "0.5em" }}>
                 <span
                   style={{
-                    fontSize: '1rem',
-                    display: 'inline-flex',
-                    alignItems: 'flex-start',
-                    justifyContent: 'flex-start',
+                    fontSize: "1rem",
+                    display: "inline-flex",
+                    alignItems: "flex-start",
+                    justifyContent: "flex-start",
                   }}
                 >
                   67%
                   <FiArrowDownRight
-                    style={{ fontSize: '1rem', marginTop: '-0.05em' }}
+                    style={{ fontSize: "1rem", marginTop: "-0.05em" }}
                   />
                 </span>
                 <span>35%</span>
@@ -175,7 +168,7 @@ export default function Flux() {
               profits to charges.
             </li>
             <li>
-              There were severe cases of false payments made to the seller.{' '}
+              There were severe cases of false payments made to the seller.{" "}
             </li>
           </ol>
         </div>
@@ -265,8 +258,8 @@ export default function Flux() {
         </h1>
         <div className="list-container">
           {[
-            'I built my first ever comprehensive design system in Figma using insights from Legacy systems like Carbon Design system. This helped to scale down design production time by 5X. The system served as a go-to arsenal for new designers joining the team.',
-            'Building crypto projects involved currency conversions and quotes generation hence the need for clarity. By working on this project, I learnt how to integrate all these components in a clear and concise manner for users.',
+            "I built my first ever comprehensive design system in Figma using insights from Legacy systems like Carbon Design system. This helped to scale down design production time by 5X. The system served as a go-to arsenal for new designers joining the team.",
+            "Building crypto projects involved currency conversions and quotes generation hence the need for clarity. By working on this project, I learnt how to integrate all these components in a clear and concise manner for users.",
           ].map((item, index) => (
             <div key={index} className="list-item">
               <CupPin />
@@ -276,5 +269,5 @@ export default function Flux() {
         </div>
       </section>
     </Container>
-  )
+  );
 }
