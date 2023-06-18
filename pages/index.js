@@ -1,14 +1,14 @@
-import Head from 'next/head'
-import Image from 'next/image'
-import Link from 'next/link'
-import Lottie from 'react-lottie'
-import { GradientTxt } from '../component'
-import { Arrow } from '../asset/convertedSvgs'
-import { BsArrowRight } from 'react-icons/bs'
-import { FiArrowUpRight } from 'react-icons/fi'
-import { device, device2 } from '../asset/png'
-import gradientAnimation from '../asset/lottie/434-gradient-animated-background.json'
-import Container from '../StyleComponents/home'
+import Head from "next/head";
+import Image from "next/image";
+import Link from "next/link";
+import Lottie from "react-lottie";
+import { GradientTxt } from "../component";
+import { Arrow } from "../asset/convertedSvgs";
+import { BsArrowRight } from "react-icons/bs";
+import { FiArrowUpRight } from "react-icons/fi";
+import { device, device2, Payso } from "../asset/png";
+import gradientAnimation from "../asset/lottie/434-gradient-animated-background.json";
+import Container from "../StyleComponents/home";
 
 export default function Home() {
   return (
@@ -21,7 +21,7 @@ export default function Home() {
               autoplay: true,
               animationData: gradientAnimation,
               rendererSettings: {
-                preserveAspectRatio: 'xMidYMid slice',
+                preserveAspectRatio: "xMidYMid slice",
               },
             }}
           />
@@ -69,6 +69,39 @@ export default function Home() {
               View Work History <BsArrowRight />
             </a>
           </Link>
+        </section>
+        <section className="userDetails--container section-payso">
+          <div className="item--row">
+            <div className="col--2">
+              <h1>Building a global fiat infrastructure for Crypto payments</h1>
+              <ol className="details">
+                <li>
+                  <span>Client</span>
+                  <span>PAY.SO</span>
+                </li>
+                <li>
+                  <span>Date</span>
+                  <span>2023</span>
+                </li>
+                <li>
+                  <span>Role</span>
+                  <span>
+                    UX strategy, Wireframing, UI Design, Prototyping, Customer
+                    Interviews
+                  </span>
+                </li>
+              </ol>
+              <Link href="/cryptoInfra">
+                <a>
+                  <GradientTxt>View Project</GradientTxt>
+                  <Arrow direction="right" />
+                </a>
+              </Link>{" "}
+            </div>
+            <div className="col--1">
+              <Image src={Payso} alt="device" />
+            </div>
+          </div>
         </section>
         <section className="userDetails--container">
           <div className="item--row">
@@ -138,11 +171,11 @@ export default function Home() {
                   <GradientTxt>View Project</GradientTxt>
                   <Arrow direction="right" />
                 </a>
-              </Link>{' '}
+              </Link>{" "}
             </div>
           </div>
         </section>
       </div>
     </Container>
-  )
+  );
 }
