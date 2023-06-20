@@ -45,11 +45,14 @@ export default function CyptoInfra() {
           <ol className="details">
             <li>
               <span>Date</span>
-              <span>2022</span>
+              <span>2023</span>
             </li>
             <li>
               <span>Role</span>
-              <span>UX design Design System Interaction design.</span>
+              <span>
+                UX strategy, Wireframing, UI Design, Prototyping, Customer
+                Interviews
+              </span>
             </li>
           </ol>
         </div>
@@ -113,7 +116,7 @@ export default function CyptoInfra() {
             <div>
               <video autoPlay loop muted>
                 <source
-                  src="https://res.cloudinary.com/djhh4kkml/video/upload/v1687103945/Leke/CaseStudy_ktdlmb.webm"
+                  src="https://res.cloudinary.com/djhh4kkml/video/upload/v1687103955/Leke/Iteration_o3x73t.webm"
                   type="video/webm"
                 />
                 Your browser does not support the video tag.
