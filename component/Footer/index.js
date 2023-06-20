@@ -20,7 +20,7 @@ const Footer = () => {
       </p> */}
       <p>
         <a
-          href="https://www.linkedin.com/in/gideon-ayodele-968bb3161/"
+          href="https://www.linkedin.com/in/leke-ayodele-968bb3161"
           target="_blank"
           rel="noreferrer"
         >
