@@ -8,6 +8,10 @@ export default Styled.div`
     position: relative;
     .subtitle {
         font-size: 2.5rem!important;
+
+        ${maxQuery("md")} {
+            font-size: 1.5rem!important;
+        }
     }
     h1 {
         color: #fff;
@@ -260,6 +264,9 @@ export default Styled.div`
                 display: flex;
                 grid-gap: 0.5em;
                 margin-bottom: 0.5em;
+                ${maxQuery("md")} {
+                    font-size: 1.2rem;
+                }
             }
             p {
                 color: #FFFDFD;
@@ -306,6 +313,10 @@ export default Styled.div`
                         font-size: 1.5rem;
                         line-height: 100%;
                         margin: 0px;
+
+                        ${maxQuery("md")} {
+                            font-size: 1.2rem;
+                        }
                     }
                     p {
                         color: #FFFDFD;
@@ -322,13 +333,19 @@ export default Styled.div`
                     color: #FFFDFD;
                     font-size: 1.6rem;
                     margin-bottom: 1.5em;
-                    font-weight: 600;
+                    font-weight: 600; 
+                    ${maxQuery("md")} {
+                        font-size: 1rem;
+                    }
                 }
             } 
             div.col-2 {
                 h3 {
                     font-size: 2.5rem;
                     margin-bottom: 1em;
+                    ${maxQuery("md")} {
+                        font-size: 1.3rem;
+                    }
                 }
                 div.img-cover {
                     display: flex;
@@ -352,6 +369,10 @@ export default Styled.div`
                         font-size: 1.5rem;
                         line-height: 100%;
                         margin: 0px;
+                        ${maxQuery("md")} {
+                            font-size: 1rem;
+                        }
+
                     }
                     p {
                         color: #FFFDFD;
@@ -643,12 +664,20 @@ export default Styled.div`
             font-weight: 500;
             font-size: 2.4rem;
             margin: auto;
+
+            ${maxQuery("md")} {
+                font-size: 1.5rem;
+            }
         }
 
         div.action-row {
             display: flex;
-            margin-top: 4em;
+            margin-top: 2em;
+            padding-bottom: 2em;
             justify-content: space-between;
+            ${minQuery("lg")} {
+                margin-top: 4em;
+            }
             a {
                 color: #fff;
                 &:hover, &:focus {
@@ -669,9 +698,9 @@ export default Styled.div`
 
             
             ${maxQuery("<lg")} {
-            img {
-                display: none!important;
-            }
+                img {
+                    display: none!important;
+                }
             }
         }
     }
