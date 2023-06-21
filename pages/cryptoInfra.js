@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Lottie from "react-lottie";
 import { GradientTxt } from "../component";
 import { Arrow, BigQuote, Card, Lists } from "../asset/convertedSvgs";
 import {
@@ -10,6 +11,9 @@ import {
   Integrations,
   BankAcc,
 } from "../asset/png";
+import CaseStudy from "../asset/lottie/caseStudy.json";
+import Iteration from "../asset/lottie/iteration.json";
+import Protection from "../asset/lottie/protection.json";
 import Container from "../StyleComponents/cryptoInfra";
 
 export default function CyptoInfra() {
@@ -114,13 +118,15 @@ export default function CyptoInfra() {
         <div className="row">
           <div className="col-1">
             <div>
-              <video autoPlay loop muted>
-                <source
-                  src="https://res.cloudinary.com/djhh4kkml/video/upload/v1687103955/Leke/Iteration_o3x73t.webm"
-                  type="video/webm"
-                />
-                Your browser does not support the video tag.
-              </video>
+              <Lottie
+                height={500}
+                width={500}
+                options={{
+                  loop: true,
+                  autoplay: true,
+                  animationData: Iteration,
+                }}
+              />
             </div>
           </div>
           <div className="col-2">
@@ -239,14 +245,16 @@ export default function CyptoInfra() {
             </div>
           </div>
           <div className="col col-2">
-            <video autoPlay loop muted>
-              <source
-                src="https://res.cloudinary.com/djhh4kkml/video/upload/v1687103961/Leke/Protection_vxou7q.webm"
-                type="video/webm"
-              />
-              Your browser does not support the video tag.
-            </video>
-            <div style={{ marginTop: "2em" }}>
+            <Lottie
+              height={600}
+              width={350}
+              options={{
+                loop: true,
+                autoplay: true,
+                animationData: Protection,
+              }}
+            />
+            <div style={{ marginTop: "3em" }}>
               <Lists />
               <h3>Protection, Compliance and Verification</h3>
               <p>
@@ -305,7 +313,7 @@ export default function CyptoInfra() {
               facilitating crypto payments through its checkout, Payso can now
               power its cross-border payment business.
             </p>
-            <div className="lists">
+            <div className="lists" style={{ marginBottom: "2.5em" }}>
               {[
                 "Crypto native companies",
                 "Other Payment business",
@@ -316,13 +324,15 @@ export default function CyptoInfra() {
                 </div>
               ))}
             </div>
-            <video autoPlay loop muted>
-              <source
-                src="https://res.cloudinary.com/djhh4kkml/video/upload/v1687103945/Leke/CaseStudy_ktdlmb.webm"
-                type="video/webm"
-              />
-              Your browser does not support the video tag.
-            </video>
+            <Lottie
+              height={450}
+              width={450}
+              options={{
+                loop: true,
+                autoplay: true,
+                animationData: CaseStudy,
+              }}
+            />
           </div>
           <div className="col-2">
             <h1>
