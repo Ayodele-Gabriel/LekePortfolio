@@ -15,6 +15,7 @@ import CaseStudy from "../asset/lottie/caseStudy.json";
 import Iteration from "../asset/lottie/iteration.json";
 import Protection from "../asset/lottie/protection.json";
 import Container from "../StyleComponents/cryptoInfra";
+// import { Protect, CaseStudy, Iteration, Protection } from "../asset/gif";
 
 export default function CyptoInfra() {
   return (
@@ -112,15 +113,14 @@ export default function CyptoInfra() {
         </div>
       </section>
       <section className="solution-cover">
-        <h1 className="subtitle">
+        <h1 className="subtitle" style={{ marginBottom: "1em" }}>
           <GradientTxt>Iteration 1 - The beginning</GradientTxt>
         </h1>
         <div className="row">
           <div className="col-1">
             <div>
+              {/* <img src={Iteration} alt="iteration" /> */}
               <Lottie
-                height={500}
-                width={500}
                 options={{
                   loop: true,
                   autoplay: true,
@@ -245,16 +245,15 @@ export default function CyptoInfra() {
             </div>
           </div>
           <div className="col col-2">
+            {/* <img src={Protection} alt="Protection" /> */}
             <Lottie
-              height={600}
-              width={350}
               options={{
                 loop: true,
                 autoplay: true,
                 animationData: Protection,
               }}
             />
-            <div style={{ marginTop: "3em" }}>
+            <div className="content">
               <Lists />
               <h3>Protection, Compliance and Verification</h3>
               <p>
@@ -324,9 +323,13 @@ export default function CyptoInfra() {
                 </div>
               ))}
             </div>
+            {/* <img
+              src={"../asset/gif/Case-study---animation-2.gif"}
+              alt="CaseStudy"
+              width={300}
+              height={200}
+            /> */}
             <Lottie
-              height={450}
-              width={450}
               options={{
                 loop: true,
                 autoplay: true,
