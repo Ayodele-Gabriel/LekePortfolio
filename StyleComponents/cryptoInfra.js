@@ -17,6 +17,10 @@ export default Styled.div`
         color: #fff;
     }
 
+     svg {
+            height: auto!important;
+        }
+
     ${maxQuery("lg")} {
         img, video {
             max-width: 100%!important;
@@ -430,14 +434,25 @@ export default Styled.div`
                 &.col-2 {
                     background: linear-gradient(165.74deg, #1F3C46 27.94%, #090F11 95.08%);
                     border-radius: 20px;
-
-                    video {
-                        max-width: 20rem;
-                        margin: 0 auto;
-                        display: block;
-                        border-radius: 20px;
-                        margin-bottom: 4em;
+                    ${maxQuery("lg")} {
+                        div {
+                            height: auto!important;
+                        }
                     }
+                    ${minQuery("md")} {
+                        svg {
+                            margin-top: -3em;
+                            max-height: 50rem;
+                        }
+
+                        div.content {
+                            margin-top: -12em;
+                        }
+                    }
+
+                    /* div.lottie-cover {
+                        border-radius: 20px;
+                    } */
                 }
             
                 h3 {
@@ -549,6 +564,7 @@ export default Styled.div`
             margin-top: 4em;
         }
 
+       
         div.row {
             margin-top: 2.5em;
             display: grid;
