@@ -111,12 +111,18 @@ export default Styled.div`
                 grid-template-columns: 30rem 1fr;
             }
             div.col--1 {
+                ${maxQuery("lg")} {
+                    order: 2;
+                }
                 img {
                     position: relative;
                     z-index: 1;
                 }
             }
             div.col--2 {
+                ${maxQuery("lg")} {
+                    order: 1;
+                }
                 padding: 4em;
                 background: linear-gradient(165.74deg, #090F11 6.88%, #1F3C46 95.08%);
                 border-radius: 20px;

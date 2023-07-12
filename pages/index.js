@@ -62,7 +62,7 @@ export default function Home() {
             technologies affect our daily lives and the strong ability it
             possesses to deepen human experiences.
           </h3>
-          <Link href="/">
+          <Link href="/about#workHistory">
             <a>
               View Work History <BsArrowRight />
             </a>
