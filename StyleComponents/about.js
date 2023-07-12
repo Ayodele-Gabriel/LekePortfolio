@@ -1,6 +1,6 @@
-import Styled from 'styled-components'
-import { footerBg } from '../asset/png'
-import { minQuery, maxQuery } from '../helpers'
+import Styled from "styled-components";
+import { footerBg } from "../asset/png";
+import { minQuery, maxQuery } from "../helpers";
 
 export default Styled.div`
     a {
@@ -52,7 +52,7 @@ export default Styled.div`
         color: #FFFDFD;
         line-height: 125%;
         font-size: 1.4rem;
-        ${maxQuery('<lg')} {
+        ${maxQuery("<lg")} {
             font-size: 1.2rem;
         }
         font-weight: 400;
@@ -75,7 +75,6 @@ export default Styled.div`
     }
     section.jumbotron--item {
         padding-top: 4rem;
-        padding-bottom: 4em;
         ${({ theme }) => theme.mixins.maxContentWidth};
         h1 {
             font-size: 4.3rem;
@@ -87,7 +86,7 @@ export default Styled.div`
             linear-gradient(0deg, #FFFDFD, #FFFDFD);
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
-            ${maxQuery('<lg')} {
+            ${maxQuery("<lg")} {
                 font-size: 2.5rem;
             }
         }
@@ -120,7 +119,7 @@ export default Styled.div`
                 font-weight: 600;
                 margin-bottom: 0.8em;
                 font-size: 1.2rem;
-                ${minQuery('md')} {
+                ${minQuery("md")} {
                     grid-template-columns: auto auto;
                     justify-content: space-between;
                 }
@@ -129,11 +128,11 @@ export default Styled.div`
                 color: #FFFDFD;
                 opacity: 0.5;
                 line-height: 150%;
-                ${minQuery('md')} {
+                ${minQuery("md")} {
                     width: 80%;
                     max-width: 45rem;
                 }
             }
         }
     }
-`
+`;

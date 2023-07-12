@@ -37,7 +37,11 @@ export default function About() {
           </li>
         </ol>
       </section>
-      <section className="list--cover">
+      <section
+        id="workHistory"
+        className="list--cover"
+        style={{ paddingTop: "4em" }}
+      >
         <h1>Work History</h1>
         <div className="list--container">
           {workHistory.map((item, index) => (
