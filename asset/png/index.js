@@ -26,3 +26,4 @@ export { default as Integrations } from "./Integrations.png";
 export { default as BankAcc } from "./BankAcc.png";
 export { default as Payso } from "./Payso.png";
 export { default as CryptoWebsites } from "./cyptoWebsites.png";
+export { default as Dashboard } from "./dashboard.png";

@@ -493,36 +493,31 @@ export default Styled.div`
     }
     section.section-code {
         display: grid;
-        grid-template-columns: 1fr 1fr;
         align-items: center;
         margin-top: 3em;
         grid-gap: 1.5em;
         background: linear-gradient(165.74deg, #1F3C46 27.94%, #090F11 95.08%);
         border-radius: 20px;
-        padding: 1em 3em;
-        ${maxQuery("lg")} {
-            grid-template-columns: 1fr;
-        }
+        padding: 4em 0px;
+        padding-bottom: 0em;
+        border-radius: 20px;
+        max-height: 58rem;
+        overflow: hidden;
+        background: linear-gradient(114deg, #12C2E9 -15.3%, #C471ED 60.11%, #F64F59 98.78%);    
 
-        div.col-1 {
-            svg {
-                font-size: 3rem;
-            }
+        header {
+            padding: 0px 4em;
             h1 {
-                margin: 0.5em 0px;
+                margin-bottom: 0.5em;
             }
-            p {
-                line-height: 130%;
-                font-size: 1.1rem;
+
+            p  {
+                color: rgba(255, 253, 253, 1);
             }
         }
-
-        div.col-2 {
-            display: flex;
-            justify-content: flex-end;
-            ${maxQuery("lg")} {
-                justify-content: center;
-            }
+        img {
+            margin: 0 auto;
+            transform: translateX(5%) scale(1.1);
         }
     }
 

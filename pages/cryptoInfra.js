@@ -10,6 +10,7 @@ import {
   Globe,
   Integrations,
   BankAcc,
+  Dashboard,
 } from "../asset/png";
 import CaseStudy from "../asset/lottie/caseStudy.json";
 import Iteration from "../asset/lottie/iteration.json";
@@ -269,19 +270,16 @@ export default function CyptoInfra() {
         </div>
       </section>
       <section className="section-code">
-        <div className="col-1">
-          <Lists />
-          <h1>Code & no-code integrations</h1>
+        <header>
+          <h1>An extensive design system</h1>
           <p>
-            Payso can connect to over 4000 other tools like Google Sheets,
-            Airtable or Notion with no code. You can also use the API to
-            integrate Payso alongside other payment systems for your SaaS
-            business.
+            The is to ensure consistency in elements like typography, color
+            schemes, buttons, and navigation patterns, while also reinforcing
+            the brand&apos;s identity and promoting efficient collaboration
+            between designers and developers.
           </p>
-        </div>
-        <div className="col-2">
-          <Image src={Integrations} alt="SwapMonkey3" />
-        </div>
+        </header>
+        <Image src={Dashboard} alt="Dashboard" />
       </section>
       <section className="section-bigquote">
         <BigQuote />
