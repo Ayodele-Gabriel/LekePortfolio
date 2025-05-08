@@ -22,13 +22,13 @@ const workHistory = [
         features.
       </>
     ),
-    date: "2022 - 2023",
+    date: "2023 - 2024",
   },
   {
     title: "VP Design @ Flux",
     details:
       "Flux (YC W21) is a mobile payments platform for sending money, receiving money,and accessing a wide range range of financial services. With flux you can easily make purchases offline to your local merchants and online from your favorite platforms, merchants and users are given the flexibility to either receive or send cash in their local currency or get paid through crypto options (bitcoin, litecoin, ethereum).",
-    date: "2020 - 2021",
+    date: "2022 - 2023",
   },
   {
     title: "UI/UX Designer @ Native",
@@ -46,7 +46,7 @@ const workHistory = [
         applications/Systems.
       </>
     ),
-    date: "2020",
+    date: "2022",
   },
   {
     title: "Product Designer & Front End Engineer @ Versecom",
@@ -83,7 +83,7 @@ const workHistory = [
         booking site with the help of teammates.
       </>
     ),
-    date: "2019",
+    date: "2020",
   },
   // {
   //   title: 'Resident Director @ Campace',

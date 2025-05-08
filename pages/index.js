@@ -118,7 +118,7 @@ export default function Home() {
                 </li>
                 <li>
                   <span>Date</span>
-                  <span>2021</span>
+                  <span>2022</span>
                 </li>
                 <li>
                   <span>Role</span>
@@ -154,7 +154,7 @@ export default function Home() {
                 </li>
                 <li>
                   <span>Date</span>
-                  <span>2021</span>
+                  <span>2022</span>
                 </li>
                 <li>
                   <span>Role</span>

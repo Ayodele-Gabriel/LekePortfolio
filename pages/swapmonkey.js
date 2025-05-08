@@ -43,7 +43,7 @@ export default function Flux() {
           <ol className="details">
             <li>
               <span>Date</span>
-              <span>2021</span>
+              <span>2022</span>
             </li>
             <li>
               <span>Role</span>
