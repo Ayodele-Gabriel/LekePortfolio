@@ -77,10 +77,10 @@ export default function Home() {
                   <span>Client</span>
                   <span>PAY.SO</span>
                 </li>
-                <li>
+                {/* <li>
                   <span>Date</span>
                   <span>2023</span>
-                </li>
+                </li> */}
                 <li>
                   <span>Role</span>
                   <span>
@@ -116,10 +116,10 @@ export default function Home() {
                   <span>Client</span>
                   <span>FLUX</span>
                 </li>
-                <li>
+                {/* <li>
                   <span>Date</span>
-                  <span>2021</span>
-                </li>
+                  <span>2022</span>
+                </li> */}
                 <li>
                   <span>Role</span>
                   <span>
@@ -152,10 +152,10 @@ export default function Home() {
                   <span>Client</span>
                   <span>SWAPMONKEY</span>
                 </li>
-                <li>
+                {/* <li>
                   <span>Date</span>
-                  <span>2021</span>
-                </li>
+                  <span>2022</span>
+                </li> */}
                 <li>
                   <span>Role</span>
                   <span>

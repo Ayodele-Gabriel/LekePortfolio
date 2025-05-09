@@ -49,10 +49,10 @@ export default function CyptoInfra() {
             </button>
           </div>
           <ol className="details">
-            <li>
+            {/* <li>
               <span>Date</span>
               <span>2023</span>
-            </li>
+            </li> */}
             <li>
               <span>Role</span>
               <span>

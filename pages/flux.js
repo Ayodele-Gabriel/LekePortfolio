@@ -1,12 +1,12 @@
-import Head from 'next/head'
-import Image from 'next/image'
-import Link from 'next/link'
-import Lottie from 'react-lottie'
-import { BsArrowRight } from 'react-icons/bs'
-import { FiArrowUpRight, FiArrowDownRight } from 'react-icons/fi'
-import { workHistory, licenseCertification } from '../constant'
-import dynamic from 'next/dynamic'
-import { GradientTxt } from '../component'
+import Head from "next/head";
+import Image from "next/image";
+import Link from "next/link";
+import Lottie from "react-lottie";
+import { BsArrowRight } from "react-icons/bs";
+import { FiArrowUpRight, FiArrowDownRight } from "react-icons/fi";
+import { workHistory, licenseCertification } from "../constant";
+import dynamic from "next/dynamic";
+import { GradientTxt } from "../component";
 import {
   Arrow,
   CupPin,
@@ -19,7 +19,7 @@ import {
   CardGroup,
   PieChart,
   SyncGroup,
-} from '../asset/convertedSvgs'
+} from "../asset/convertedSvgs";
 import {
   device,
   Chat,
@@ -37,10 +37,10 @@ import {
   fluxBrowser,
   fluxAuth,
   SwapMonkeyWithFrame,
-} from '../asset/png'
-import Container from '../StyleComponents/flux'
+} from "../asset/png";
+import Container from "../StyleComponents/flux";
 
-const FluxLink = dynamic(() => import('../component/FluxLink'), { ssr: false })
+const FluxLink = dynamic(() => import("../component/FluxLink"), { ssr: false });
 
 export default function Flux() {
   return (
@@ -54,20 +54,20 @@ export default function Flux() {
           <div>
             <h3 className="about">
               Flux is a cross border payments company powered with crypto in
-              over{' '}
+              over{" "}
               <span
                 className="u-color_white"
-                style={{ opacity: 1, color: '#ffff' }}
+                style={{ opacity: 1, color: "#ffff" }}
               >
                 40
-              </span>{' '}
+              </span>{" "}
               countries. We identified users&apos; inability to verify their
-              identity during the onboarding process with only about{' '}
+              identity during the onboarding process with only about{" "}
               <span className="u-color_white">6-10%</span> successful
-              verification. This in turn led to{' '}
+              verification. This in turn led to{" "}
               <span className="u-color_white">35%</span> of users actively
               transacting. We replaced unused features with new ones which
-              reduced churn rate from <span className="u-color_white">70%</span>{' '}
+              reduced churn rate from <span className="u-color_white">70%</span>{" "}
               to <span className="u-color_white">30%</span>. A move that led to
               a <span className="u-color_white">5X</span> boost in transaction
               volume and a <span className="u-color_white">60%</span> increase
@@ -79,10 +79,10 @@ export default function Flux() {
             </button>
           </div>
           <ol className="details">
-            <li>
+            {/* <li>
               <span>Date</span>
-              <span>2021</span>
-            </li>
+              <span>2022</span>
+            </li> */}
             <li>
               <span>Role</span>
               <span>
@@ -170,7 +170,7 @@ export default function Flux() {
                   transfers made to these accounts do not reflect hence creating
                   panicking and irate users. For some customers they simply do
                   not want another account number added to their numerous
-                  collections.{' '}
+                  collections.{" "}
                 </p>
               </div>
             </div>
@@ -187,7 +187,7 @@ export default function Flux() {
           <div className="col-1">
             <h1>
               We reverse engineered the process to collect only the users BVN
-              and a photo selfie during the onboarding process.{' '}
+              and a photo selfie during the onboarding process.{" "}
             </h1>
             <div className="item-row">
               <div className="pie-container">
@@ -217,7 +217,7 @@ export default function Flux() {
               <h3>Virtual Cards</h3>
               <p>
                 This informed our decision to introduce the virtual cards
-                feature to help our users make safe and secure payments online.{' '}
+                feature to help our users make safe and secure payments online.{" "}
               </p>
             </header>
             <div className="img-container">
@@ -241,7 +241,7 @@ export default function Flux() {
               <p>
                 Also, an utility payment feature was launched to help users make
                 bill payment like electricity, cable TV and Internet
-                subscriptions via the app.{' '}
+                subscriptions via the app.{" "}
               </p>
             </header>
             <div className="img-container">
@@ -300,18 +300,18 @@ export default function Flux() {
           {[
             {
               icon: ContactGroup,
-              title: '4000',
-              details: 'New users with over 3500 successfully verified',
+              title: "4000",
+              details: "New users with over 3500 successfully verified",
             },
             {
               icon: CardGroup,
-              title: '30%',
+              title: "30%",
               details:
-                'of our users created virtual cards immediately after launch with 25% funding right after they created the cards',
+                "of our users created virtual cards immediately after launch with 25% funding right after they created the cards",
             },
             {
               icon: SyncGroup,
-              title: '0% to 40%',
+              title: "0% to 40%",
               details:
                 'By adding the "fund wallet with debit card", the share of customer funding via bank transfer to virtual accounts went from 100% to 60% and via debit card from 0% to 40%',
             },
@@ -327,5 +327,5 @@ export default function Flux() {
         </div>
       </section>
     </Container>
-  )
+  );
 }

@@ -41,10 +41,10 @@ export default function Flux() {
             </button>
           </div>
           <ol className="details">
-            <li>
+            {/* <li>
               <span>Date</span>
-              <span>2021</span>
-            </li>
+              <span>2022</span>
+            </li> */}
             <li>
               <span>Role</span>
               <span>

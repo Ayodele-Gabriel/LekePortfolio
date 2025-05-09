@@ -48,7 +48,7 @@ export default function About() {
             <div className="list--item" key={`work-${index}`}>
               <div className="top--row">
                 <p>{item.title}</p>
-                <p>{item.date}</p>
+                {/* <p>{item.date}</p> */}
               </div>
               <p className="detail">{item.details}</p>
             </div>
@@ -62,7 +62,7 @@ export default function About() {
             <div className="list--item" key={`license-${index}`}>
               <div className="top--row">
                 <p>{item.title}</p>
-                <p>{item.date}</p>
+                {/* <p>{item.date}</p> */}
               </div>
               <p className="detail">{item.details}</p>
             </div>
