@@ -6,9 +6,9 @@ export default function About() {
     <Container>
       <section className="jumbotron--item">
         <h1>
-          I build usable digital
-          <br /> products that help
-          <br /> achieve business goals.
+          I build products that
+          <br /> break rules, spark curiosity, 
+          <br /> and move business forward.
         </h1>
         <hr />
         <h3 className="about">
