@@ -4,7 +4,7 @@ import Lottie from "react-lottie";
 import { GradientTxt } from "../component";
 import { Arrow } from "../asset/convertedSvgs";
 import { BsArrowRight } from "react-icons/bs";
-import { device, device2, Payso } from "../asset/png";
+import { device, device2, Payso, Dashboard } from "../asset/png";
 import gradientAnimation from "../asset/lottie/434-gradient-animated-background.json";
 import Container from "../StyleComponents/home";
 
@@ -68,6 +68,38 @@ export default function Home() {
             </a>
           </Link>
         </section>
+        <section className="userDetails--container">
+          <div className="item--row">
+            <div className="col--2">
+              <h1>
+                Turning a struggling job-seeker toolkit into a scalable,
+                AI-powered application engine
+              </h1>
+              <ol className="details">
+                <li>
+                  <span>Client</span>
+                  <span>JOBGAP AI</span>
+                </li>
+                <li>
+                  <span>Role</span>
+                  <span>
+                    Growth Product Design, Conversion Optimisation,
+                    Behavioural Analytics
+                  </span>
+                </li>
+              </ol>
+              <Link href="/jobgap">
+                <a>
+                  <GradientTxt>View Project</GradientTxt>
+                  <Arrow direction="right" />
+                </a>
+              </Link>
+            </div>
+            <div className="col--1">
+              <Image src={Dashboard} alt="JobGap AI Dashboard" />
+            </div>
+          </div>
+        </section>
         <section className="userDetails--container section-payso">
           <div className="item--row">
             <div className="col--2">
@@ -109,7 +141,7 @@ export default function Home() {
             <div className="col--2">
               <h1>
                 Redesigning the identification and payment experience for
-                Nigeria’s foremost neobank
+                Nigeria's foremost neobank
               </h1>
               <ol className="details">
                 <li>
@@ -144,7 +176,7 @@ export default function Home() {
             </div>
             <div className="col--2">
               <h1>
-                Building Africa’s first decentralized peer-to peer cypto trading
+                Building Africa's first decentralized peer-to peer cypto trading
                 platform
               </h1>
               <ol className="details">
