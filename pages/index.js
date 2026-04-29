@@ -4,7 +4,8 @@ import Lottie from "react-lottie";
 import { GradientTxt } from "../component";
 import { Arrow } from "../asset/convertedSvgs";
 import { BsArrowRight } from "react-icons/bs";
-import { device, device2, Payso, Dashboard } from "../asset/png";
+import { device, device2, Payso } from "../asset/png";
+import FreeDashboard from "../Jobgap Image/CompressImage.com/Screenshot 2026-03-16 at 08.00.23 1.webp";
 import gradientAnimation from "../asset/lottie/434-gradient-animated-background.json";
 import Container from "../StyleComponents/home";
 
@@ -79,7 +80,7 @@ export default function Home() {
               </Link>
             </div>
             <div className="col--1">
-              <Image src={Dashboard} alt="JobGap AI Dashboard" />
+              <Image src={FreeDashboard} alt="JobGap AI Dashboard" />
             </div>
           </div>
         </section>

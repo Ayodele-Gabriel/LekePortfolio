@@ -5,35 +5,35 @@ import Container from "../StyleComponents/jobgap";
 import Image from "next/image";
 
 // ── Competitive Research ──────────────────────────────────────────────────────
-import CompRestore1 from "../Jobgap Image/Screenshot 2026-03-16 at 07.43.53 1.png";
-import CompRestore2 from "../Jobgap Image/Screenshot 2026-03-16 at 07.43.53 2.png";
-import CompPredict from "../Jobgap Image/Screenshot 2026-03-16 at 07.44.55 1.png";
-import CompCoinSnap from "../Jobgap Image/Screenshot 2026-03-16 at 07.44.55 2.png";
+import CompRestore1 from "../Jobgap Image/CompressImage.com/Screenshot 2026-03-16 at 07.43.53 1.webp";
+import CompRestore2 from "../Jobgap Image/CompressImage.com/Screenshot 2026-03-16 at 07.43.53 2.webp";
+import CompPredict from "../Jobgap Image/CompressImage.com/Screenshot 2026-03-16 at 07.44.55 1.webp";
+import CompCoinSnap from "../Jobgap Image/CompressImage.com/Screenshot 2026-03-16 at 07.44.55 2.webp";
 
 // ── Onboarding ────────────────────────────────────────────────────────────────
-import Form7Step from "../Jobgap Image/Screenshot 2026-03-16 at 07.37.20 1.png";
-import OnboardBlacklist from "../Jobgap Image/Screenshot 2026-04-27 at 20.45.15.png";
-import OnboardJobTitles from "../Jobgap Image/Screenshot 2026-04-27 at 20.45.29.png";
+import Form7Step from "../Jobgap Image/CompressImage.com/Screenshot 2026-03-16 at 07.37.20 1.webp";
+import OnboardBlacklist from "../Jobgap Image/CompressImage.com/Screenshot 2026-04-27 at 20.45.15.webp";
+import OnboardJobTitles from "../Jobgap Image/CompressImage.com/Screenshot 2026-04-27 at 20.45.29.webp";
 
 // ── Dashboards ────────────────────────────────────────────────────────────────
-import FreeDashboard from "../Jobgap Image/Screenshot 2026-03-16 at 08.00.23 1.png";
-import PaidDashV1 from "../Jobgap Image/Screenshot 2026-03-16 at 07.52.20 1.png";
-import PaidDashV2 from "../Jobgap Image/Screenshot 2026-03-16 at 07.52.20 1-1.png";
-import PaidDashClean from "../Jobgap Image/Screenshot 2026-03-16 at 08.01.23 1.png";
-import AppTransparency from "../Jobgap Image/Screenshot 2026-03-16 at 08.51.49 1.png";
+import FreeDashboard from "../Jobgap Image/CompressImage.com/Screenshot 2026-03-16 at 08.00.23 1.webp";
+import PaidDashV1 from "../Jobgap Image/CompressImage.com/Screenshot 2026-03-16 at 07.52.20 1.webp";
+import PaidDashV2 from "../Jobgap Image/CompressImage.com/Screenshot 2026-03-16 at 07.52.20 1-1.webp";
+import PaidDashClean from "../Jobgap Image/CompressImage.com/Screenshot 2026-03-16 at 08.01.23 1.webp";
+import AppTransparency from "../Jobgap Image/CompressImage.com/Screenshot 2026-03-16 at 08.51.49 1.webp";
 
 // ── Pricing & Landing ─────────────────────────────────────────────────────────
-import PricingCard from "../Jobgap Image/Screenshot 2026-03-16 at 08.07.40 1.png";
-import LandingFinal from "../Jobgap Image/Screenshot 2026-03-16 at 08.29.19 1.png";
-import LandingEarly from "../Jobgap Image/Screenshot 2026-03-16 at 08.30.21 1.png";
+import PricingCard from "../Jobgap Image/CompressImage.com/Screenshot 2026-03-16 at 08.07.40 1.webp";
+import LandingFinal from "../Jobgap Image/CompressImage.com/Screenshot 2026-03-16 at 08.29.19 1.webp";
+import LandingEarly from "../Jobgap Image/CompressImage.com/Screenshot 2026-03-16 at 08.30.21 1.webp";
 
 // ── Analytics ────────────────────────────────────────────────────────────────
-import HotjarDash from "../Jobgap Image/Screenshot 2026-03-16 at 08.55.58 1.png";
+import HotjarDash from "../Jobgap Image/CompressImage.com/Screenshot 2026-03-16 at 08.55.58 1.webp";
 
 // ── Retention Emails ─────────────────────────────────────────────────────────
-import EmailOpen from "../Jobgap Image/PHOTO-2025-07-31-09-39-30 1.png";
-import EmailBody from "../Jobgap Image/PHOTO-2025-07-31-09-41-07 1.png";
-import EmailClose from "../Jobgap Image/PHOTO-2025-07-31-09-41-08 1.png";
+import EmailOpen from "../Jobgap Image/CompressImage.com/PHOTO-2025-07-31-09-39-30 1.webp";
+import EmailBody from "../Jobgap Image/CompressImage.com/PHOTO-2025-07-31-09-41-07 1.webp";
+import EmailClose from "../Jobgap Image/CompressImage.com/PHOTO-2025-07-31-09-41-08 1.webp";
 
 export default function JobGap() {
   return (
