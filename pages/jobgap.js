@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import { GradientTxt } from "../component";
 import { Arrow, CupPin } from "../asset/convertedSvgs";
 import Container from "../StyleComponents/jobgap";

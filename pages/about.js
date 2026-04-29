@@ -11,31 +11,20 @@ export default function About() {
           <br /> and move business forward.
         </h1>
         <hr />
-        <h3 className="about">
-          <span>ABOUT ME</span> I am a digital product designer focused on
-          creating amazing and intuitive experiences for users. I do this while
-          ensuring it solves business and product goals. I have a strong
-          background in Fintech and I possess a smooth collaboration workflow
-          with engineering teams. I am also curious about how emerging
-          technologies affect our daily lives and the strong ability it
-          possesses to deepen human experiences.
-        </h3>
-        <ol className="details">
-          <li>
-            <span>Currently in</span>
-            <span>London, UK</span>
-          </li>
-          <li>
-            <span>Focused on</span>
-            <span>
-              Measurable metric and the positive impact of the solution
-            </span>
-          </li>
-          <li>
-            <span>Working with</span>
-            <span>Brands, Startups, Individuals</span>
-          </li>
-        </ol>
+        <div className="about">
+          <p>
+            I design for complexity — payments infrastructure, fraud systems, AI automation platforms. The kind of products where a wrong decision is expensive and a confusing interface makes it worse.
+          </p>
+          <p>
+            Most of my work lives at the intersection of technical systems and the people who have to act on them — fraud officers making split-second calls, merchants managing money across borders, professionals trying to navigate a job market that doesn&apos;t slow down for them. My job is to make that complexity disappear at the interface level without pretending it doesn&apos;t exist underneath.
+          </p>
+          <p>
+            I&apos;ve been doing this across fintech and AI for 5 years — from founding designer at payment processors to leading product design at an AI automation platform used by 10,000+ people. I work end-to-end, I&apos;m close to engineering, and I care about whether the thing actually shipped and whether it worked.
+          </p>
+          <p className="about--availability">
+            Based in London. Currently open to senior product design roles in fintech, AI and complex B2B products.
+          </p>
+        </div>
       </section>
       <section
         id="workHistory"
@@ -48,7 +37,7 @@ export default function About() {
             <div className="list--item" key={`work-${index}`}>
               <div className="top--row">
                 <p>{item.title}</p>
-                {/* <p>{item.date}</p> */}
+                <p>{item.date}</p>
               </div>
               <p className="detail">{item.details}</p>
             </div>

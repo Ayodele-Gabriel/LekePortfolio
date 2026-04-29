@@ -80,26 +80,36 @@ export default Styled.div`
     section.section--about {
         padding: 8em 0px;
         ${({ theme }) => theme.mixins.maxContentWidth};
-        h3 {
+        p {
             color: #FFFDFD;
-            line-height: 125%;
-            font-size: 1.4rem;
+            line-height: 160%;
+            font-size: 1.25rem;
             font-weight: 400;
-            margin-bottom: 1em;
-            span {
-                font-size: 0.8rem;
+            margin-bottom: 1.5em;
+            
+            &.about--availability {
+                font-size: 1rem;
+                color: rgba(255,253,253,0.7);
+                margin-top: 2.5em;
+                margin-bottom: 3em;
             }
-            & + a {
-                background: linear-gradient(104.62deg, #12C2E9 8.83%, #C471ED 55.36%, #F64F59 109.3%),
+        }
+        a {
+            background: linear-gradient(104.62deg, #12C2E9 8.83%, #C471ED 55.36%, #F64F59 109.3%),
+            linear-gradient(0deg, #FFFDFD, #FFFDFD);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            font-size: 1.2rem;
+            font-weight: 500;
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5em;
+            
+            .icon {
+                 background: linear-gradient(104.62deg, #12C2E9 8.83%, #C471ED 55.36%, #F64F59 109.3%),
                 linear-gradient(0deg, #FFFDFD, #FFFDFD);
-                -webkit-background-clip: text;
-                -webkit-text-fill-color: transparent;
-                .icon {
-                     background: linear-gradient(104.62deg, #12C2E9 8.83%, #C471ED 55.36%, #F64F59 109.3%),
-                    linear-gradient(0deg, #FFFDFD, #FFFDFD);
-                -webkit-background-clip: text;
-                -webkit-text-fill-color: transparent;
-                }
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
             }
         }
     }
