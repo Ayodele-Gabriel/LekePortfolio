@@ -56,7 +56,7 @@ export default function Home() {
           <div className="item--row">
             <div className="col--2">
               <h1>
-                Turning a struggling job-seeker toolkit into a scalable,
+                Turning a struggling job-seeker toolkit into an automated
                 AI-powered application engine
               </h1>
               <ol className="details">

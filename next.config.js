@@ -1,7 +1,6 @@
 const withVideos = require("next-videos");
 
-module.exports = {
-  withVideos: withVideos(),
+module.exports = withVideos({
   reactStrictMode: true,
   images: {
     remotePatterns: [
@@ -13,4 +12,4 @@ module.exports = {
       },
     ],
   },
-};
+});

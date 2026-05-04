@@ -41,7 +41,7 @@ export default function JobGap() {
       {/* ─── HERO ─────────────────────────────────────────── */}
       <section className="jumbotron--item">
         <h1>
-          Turning a struggling job-seeker toolkit into a scalable, AI-powered
+          Turning a struggling job-seeker toolkit into an automated AI-powered
           application engine
         </h1>
         <div className="item-row">
