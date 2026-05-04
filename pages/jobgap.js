@@ -4,36 +4,31 @@ import { Arrow, CupPin } from "../asset/convertedSvgs";
 import Container from "../StyleComponents/jobgap";
 import Image from "next/image";
 
-// ── Competitive Research ──────────────────────────────────────────────────────
-import CompRestore1 from "../Jobgap Image/CompressImage.com/Screenshot 2026-03-16 at 07.43.53 1.webp";
-import CompRestore2 from "../Jobgap Image/CompressImage.com/Screenshot 2026-03-16 at 07.43.53 2.webp";
-import CompPredict from "../Jobgap Image/CompressImage.com/Screenshot 2026-03-16 at 07.44.55 1.webp";
-import CompCoinSnap from "../Jobgap Image/CompressImage.com/Screenshot 2026-03-16 at 07.44.55 2.webp";
+// ── Image paths (served from public/jobgap — avoids Squoosh WASM at build time)
+const CompRestore1 = "/jobgap/Screenshot-2026-03-16-07.43.53-1.webp";
+const CompRestore2 = "/jobgap/Screenshot-2026-03-16-07.43.53-2.webp";
+const CompPredict  = "/jobgap/Screenshot-2026-03-16-07.44.55-1.webp";
+const CompCoinSnap = "/jobgap/Screenshot-2026-03-16-07.44.55-2.webp";
 
-// ── Onboarding ────────────────────────────────────────────────────────────────
-import Form7Step from "../Jobgap Image/CompressImage.com/Screenshot 2026-03-16 at 07.37.20 1.webp";
-import OnboardBlacklist from "../Jobgap Image/CompressImage.com/Screenshot 2026-04-27 at 20.45.15.webp";
-import OnboardJobTitles from "../Jobgap Image/CompressImage.com/Screenshot 2026-04-27 at 20.45.29.webp";
+const Form7Step       = "/jobgap/Screenshot-2026-03-16-07.37.20-1.webp";
+const OnboardBlacklist = "/jobgap/Screenshot-2026-04-27-20.45.15.webp";
+const OnboardJobTitles = "/jobgap/Screenshot-2026-04-27-20.45.29.webp";
 
-// ── Dashboards ────────────────────────────────────────────────────────────────
-import FreeDashboard from "../Jobgap Image/CompressImage.com/Screenshot 2026-03-16 at 08.00.23 1.webp";
-import PaidDashV1 from "../Jobgap Image/CompressImage.com/Screenshot 2026-03-16 at 07.52.20 1.webp";
-import PaidDashV2 from "../Jobgap Image/CompressImage.com/Screenshot 2026-03-16 at 07.52.20 1-1.webp";
-import PaidDashClean from "../Jobgap Image/CompressImage.com/Screenshot 2026-03-16 at 08.01.23 1.webp";
-import AppTransparency from "../Jobgap Image/CompressImage.com/Screenshot 2026-03-16 at 08.51.49 1.webp";
+const FreeDashboard  = "/jobgap/Screenshot-2026-03-16-08.00.23-1.webp";
+const PaidDashV1     = "/jobgap/Screenshot-2026-03-16-07.52.20-1.webp";
+const PaidDashV2     = "/jobgap/Screenshot-2026-03-16-07.52.20-1-1.webp";
+const PaidDashClean  = "/jobgap/Screenshot-2026-03-16-08.01.23-1.webp";
+const AppTransparency = "/jobgap/Screenshot-2026-03-16-08.51.49-1.webp";
 
-// ── Pricing & Landing ─────────────────────────────────────────────────────────
-import PricingCard from "../Jobgap Image/CompressImage.com/Screenshot 2026-03-16 at 08.07.40 1.webp";
-import LandingFinal from "../Jobgap Image/CompressImage.com/Screenshot 2026-03-16 at 08.29.19 1.webp";
-import LandingEarly from "../Jobgap Image/CompressImage.com/Screenshot 2026-03-16 at 08.30.21 1.webp";
+const PricingCard  = "/jobgap/Screenshot-2026-03-16-08.07.40-1.webp";
+const LandingFinal = "/jobgap/Screenshot-2026-03-16-08.29.19-1.webp";
+const LandingEarly = "/jobgap/Screenshot-2026-03-16-08.30.21-1.webp";
 
-// ── Analytics ────────────────────────────────────────────────────────────────
-import HotjarDash from "../Jobgap Image/CompressImage.com/Screenshot 2026-03-16 at 08.55.58 1.webp";
+const HotjarDash = "/jobgap/Screenshot-2026-03-16-08.55.58-1.webp";
 
-// ── Retention Emails ─────────────────────────────────────────────────────────
-import EmailOpen from "../Jobgap Image/CompressImage.com/PHOTO-2025-07-31-09-39-30 1.webp";
-import EmailBody from "../Jobgap Image/CompressImage.com/PHOTO-2025-07-31-09-41-07 1.webp";
-import EmailClose from "../Jobgap Image/CompressImage.com/PHOTO-2025-07-31-09-41-08 1.webp";
+const EmailOpen  = "/jobgap/PHOTO-2025-07-31-09-39-30-1.webp";
+const EmailBody  = "/jobgap/PHOTO-2025-07-31-09-41-07-1.webp";
+const EmailClose = "/jobgap/PHOTO-2025-07-31-09-41-08-1.webp";
 
 export default function JobGap() {
   return (
@@ -146,7 +141,9 @@ export default function JobGap() {
             <Image
               src={Form7Step}
               alt="Original 7-step onboarding form — step 2 of 7 showing work & career preferences"
-              placeholder="blur"
+              width={1200}
+              height={800}
+              style={{ width: "100%", height: "auto" }}
             />
             <p className="img-caption">Original 7-step onboarding — step 2/7. Hotjar recordings showed steep drop-off from this point.</p>
           </div>
@@ -166,7 +163,9 @@ export default function JobGap() {
             <Image
               src={HotjarDash}
               alt="Hotjar session analytics showing 831 sessions, 18:27 avg duration — behavioural data analysis"
-              placeholder="blur"
+              width={1200}
+              height={800}
+              style={{ width: "100%", height: "auto" }}
             />
             <p className="img-caption">Hotjar behavioural data analysis: 831 sessions, 18:27 avg. session duration. Top-clicked CTA was "Sign In" — users were returning, not converting.</p>
           </div>
@@ -208,25 +207,25 @@ export default function JobGap() {
           <div className="comp-grid">
             <div className="comp-item">
               <div className="comp-img">
-                <Image src={CompRestore1} alt="Restore fitness app — paywall after personalised value" placeholder="blur" />
+                <Image src={CompRestore1} alt="Restore fitness app — paywall after personalised value" width={1200} height={800} style={{ width: "100%", height: "auto" }} />
               </div>
               <p className="comp-label">Restore — paywall deferred until after personalised value is shown</p>
             </div>
             <div className="comp-item">
               <div className="comp-img">
-                <Image src={CompRestore2} alt="Restore fitness app — onboarding screen" placeholder="blur" />
+                <Image src={CompRestore2} alt="Restore fitness app — onboarding screen" width={1200} height={800} style={{ width: "100%", height: "auto" }} />
               </div>
               <p className="comp-label">Restore — progressive data collection, minimal friction per step</p>
             </div>
             <div className="comp-item">
               <div className="comp-img comp-img--mobile">
-                <Image src={CompPredict} alt="Fitness app personalised prediction screen — 'We predict you'll be 50.2kg by September 4'" placeholder="blur" />
+                <Image src={CompPredict} alt="Fitness app personalised prediction screen — 'We predict you'll be 50.2kg by September 4'" width={800} height={1200} style={{ width: "100%", height: "auto" }} />
               </div>
               <p className="comp-label">Value-first prediction: personalised output shown before any payment ask</p>
             </div>
             <div className="comp-item">
               <div className="comp-img comp-img--mobile">
-                <Image src={CompCoinSnap} alt="CoinSnap app home screen — value demonstrated immediately" placeholder="blur" />
+                <Image src={CompCoinSnap} alt="CoinSnap app home screen — value demonstrated immediately" width={800} height={1200} style={{ width: "100%", height: "auto" }} />
               </div>
               <p className="comp-label">CoinSnap — core value (identify + grade) surface-level from home screen</p>
             </div>
@@ -265,11 +264,11 @@ export default function JobGap() {
             {/* Onboarding field screenshots */}
             <div className="img-pair">
               <div className="img-pair__item img-shadow">
-                <Image src={OnboardJobTitles} alt="Onboarding job titles field — open text input replacing dropdowns" placeholder="blur" />
+                <Image src={OnboardJobTitles} alt="Onboarding job titles field — open text input replacing dropdowns" width={1200} height={800} style={{ width: "100%", height: "auto" }} />
                 <p className="img-caption">Open-text job title field replacing dropdowns — support tickets about missing titles stopped immediately.</p>
               </div>
               <div className="img-pair__item img-shadow">
-                <Image src={OnboardBlacklist} alt="Onboarding company and industry exclusion (blacklist) feature" placeholder="blur" />
+                <Image src={OnboardBlacklist} alt="Onboarding company and industry exclusion (blacklist) feature" width={1200} height={800} style={{ width: "100%", height: "auto" }} />
                 <p className="img-caption">Company & industry exclusion list — users could tell the AI which employers to avoid. This single feature visibly increased trust.</p>
               </div>
             </div>
@@ -320,7 +319,7 @@ export default function JobGap() {
                 submitted automatically on your behalf."
               </p>
               <div className="dashboard-img img-shadow">
-                <Image src={FreeDashboard} alt="Free dashboard — locked job previews and upgrade prompt" placeholder="blur" />
+                <Image src={FreeDashboard} alt="Free dashboard — locked job previews and upgrade prompt" width={1200} height={800} style={{ width: "100%", height: "auto" }} />
               </div>
             </div>
             <div className="dashboard-card dashboard-card--paid">
@@ -334,7 +333,7 @@ export default function JobGap() {
                 who entrusted the platform with their job search.
               </p>
               <div className="dashboard-img img-shadow">
-                <Image src={PaidDashV2} alt="Paid dashboard — applications submitted, target roles, target salary" placeholder="blur" />
+                <Image src={PaidDashV2} alt="Paid dashboard — applications submitted, target roles, target salary" width={1200} height={800} style={{ width: "100%", height: "auto" }} />
               </div>
             </div>
           </div>
@@ -346,19 +345,19 @@ export default function JobGap() {
             <div className="evolution-row">
               <div className="evolution-item">
                 <div className="img-shadow">
-                  <Image src={PaidDashV1} alt="Paid dashboard v1 — early version" placeholder="blur" />
+                  <Image src={PaidDashV1} alt="Paid dashboard v1 — early version" width={1200} height={800} style={{ width: "100%", height: "auto" }} />
                 </div>
                 <span className="evo-label">v1 — Early dashboard (missing target salary, no nav avatars)</span>
               </div>
               <div className="evolution-item">
                 <div className="img-shadow">
-                  <Image src={PaidDashClean} alt="Paid dashboard — clean view without sidebar" placeholder="blur" />
+                  <Image src={PaidDashClean} alt="Paid dashboard — clean view without sidebar" width={1200} height={800} style={{ width: "100%", height: "auto" }} />
                 </div>
                 <span className="evo-label">v2 — Cleaner layout, sidebar collapsed for focus</span>
               </div>
               <div className="evolution-item">
                 <div className="img-shadow">
-                  <Image src={PaidDashV2} alt="Paid dashboard v3 — target salary added, nav avatar" placeholder="blur" />
+                  <Image src={PaidDashV2} alt="Paid dashboard v3 — target salary added, nav avatar" width={1200} height={800} style={{ width: "100%", height: "auto" }} />
                 </div>
                 <span className="evo-label">v3 — Final: target salary surfaced, profile avatar added</span>
               </div>
@@ -370,7 +369,7 @@ export default function JobGap() {
             <h3>Transparency as a Retention Tool</h3>
             <p>Paid users could open any submitted application and see exactly what the AI filled in — CV, cover letter, personal information, and form answers. This visibility was critical to trust.</p>
             <div className="img-single img-shadow">
-              <Image src={AppTransparency} alt="Application detail view — showing exactly how JobgapAI filled in personal info, work info and CV for each role" placeholder="blur" />
+              <Image src={AppTransparency} alt="Application detail view — showing exactly how JobgapAI filled in personal info, work info and CV for each role" width={1200} height={800} style={{ width: "100%", height: "auto" }} />
               <p className="img-caption">Application detail view: full transparency into every field the AI submitted — personal info, work authorisation, salary expectation, CV and cover letter.</p>
             </div>
           </div>
@@ -405,7 +404,7 @@ export default function JobGap() {
 
           {/* Pricing card screenshot */}
           <div className="img-single img-shadow img-narrow">
-            <Image src={PricingCard} alt="Professional plan pricing card — $469 one-time, $0.72/job, Afterpay and Klarna instalments" placeholder="blur" />
+            <Image src={PricingCard} alt="Professional plan pricing card — $469 one-time, $0.72/job, Afterpay and Klarna instalments" width={1200} height={800} style={{ width: "100%", height: "auto" }} />
             <p className="img-caption">Final pricing card: $469 one-time, instalment options via Afterpay & Klarna. "One-time payment. No subscription." stated prominently.</p>
           </div>
         </div>
@@ -441,11 +440,11 @@ export default function JobGap() {
           {/* Landing page screenshots */}
           <div className="landing-screens">
             <div className="img-shadow">
-              <Image src={LandingEarly} alt="Early landing page — 'Job Hunting is Exhausting, We Make it Effortless'" placeholder="blur" />
+              <Image src={LandingEarly} alt="Early landing page — 'Job Hunting is Exhausting, We Make it Effortless'" width={1200} height={800} style={{ width: "100%", height: "auto" }} />
               <p className="img-caption">Early version — generic pain framing, feature-led copy</p>
             </div>
             <div className="img-shadow">
-              <Image src={LandingFinal} alt="Final landing page — 'Land your dream job without sending hundreds of applications every week'" placeholder="blur" />
+              <Image src={LandingFinal} alt="Final landing page — 'Land your dream job without sending hundreds of applications every week'" width={1200} height={800} style={{ width: "100%", height: "auto" }} />
               <p className="img-caption">Final version — outcome-led headline, one-time payment stated in hero, dual CTA</p>
             </div>
           </div>
@@ -484,15 +483,15 @@ export default function JobGap() {
           {/* Retention email screenshots */}
           <div className="email-grid">
             <div className="email-item img-shadow">
-              <Image src={EmailOpen} alt="Personalised retention email — 'Interested in your thoughts on recent job opportunities, Abdulrahim'" placeholder="blur" />
+              <Image src={EmailOpen} alt="Personalised retention email — 'Interested in your thoughts on recent job opportunities, Abdulrahim'" width={800} height={1200} style={{ width: "100%", height: "auto" }} />
               <p className="img-caption">Subject line: personalised with recipient name and specific role context — not a generic re-engagement blast.</p>
             </div>
             <div className="email-item img-shadow">
-              <Image src={EmailBody} alt="Email body — personalised job match at Perplexity and Sanity.io with tailored fit analysis" placeholder="blur" />
+              <Image src={EmailBody} alt="Email body — personalised job match at Perplexity and Sanity.io with tailored fit analysis" width={800} height={1200} style={{ width: "100%", height: "auto" }} />
               <p className="img-caption">Body: specific role, company context, personalised fit rationale — drafted by the AI from the user's live profile.</p>
             </div>
             <div className="email-item img-shadow">
-              <Image src={EmailClose} alt="Email close — JobgapAI Career Assistant sign-off with application link and next steps" placeholder="blur" />
+              <Image src={EmailClose} alt="Email close — JobgapAI Career Assistant sign-off with application link and next steps" width={800} height={1200} style={{ width: "100%", height: "auto" }} />
               <p className="img-caption">Sign-off: explicit offer to handle the application + direct application link. Sarah (JobgapAI Career Assistant) as sender persona.</p>
             </div>
           </div>
