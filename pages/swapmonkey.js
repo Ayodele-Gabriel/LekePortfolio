@@ -82,7 +82,7 @@ export default function Flux() {
           </div>
           <div className="col-2">
             <div>
-              <Image src={Chat} alt="Chat" />
+              <Image src={Chat} alt="Chat" unoptimized={true} />
               <Arrow />
             </div>
             <div className="content-item">
@@ -120,7 +120,7 @@ export default function Flux() {
         </h1>
         <div className="row">
           <div className="col-1">
-            <Image src={SwapMonkey} alt="Swap Monkey" />
+            <Image src={SwapMonkey} alt="Swap Monkey" unoptimized={true} />
           </div>
           <div className="col-2">
             <div>
@@ -192,7 +192,7 @@ export default function Flux() {
       </section>
       <section className="section-sample">
         <div className="col">
-          <Image src={SwapMonkeyUSDT} alt="SwapMonkeyUSDT" />
+          <Image src={SwapMonkeyUSDT} alt="SwapMonkeyUSDT" unoptimized={true} />
         </div>
         <div className="col">
           <h2>
@@ -237,11 +237,11 @@ export default function Flux() {
           </p>
         </div>
         <div className="col-2">
-          <Image src={SwapMonkey3} alt="SwapMonkey3" />
+          <Image src={SwapMonkey3} alt="SwapMonkey3" unoptimized={true} />
         </div>
       </section>
       <section className="section-monkey">
-        <Image src={SwapMonkeyWithFrame} alt="Monkey Group" />
+        <Image src={SwapMonkeyWithFrame} alt="Monkey Group" unoptimized={true} />
         <a href="http://swapmonkey.io/" rel="noreferrer" target="_blank">
           <GradientTxt>
             Visit Website
@@ -250,7 +250,7 @@ export default function Flux() {
         </a>
       </section>
       <section>
-        <Image src={MonkeyGroup} alt="Monkey Group" />
+        <Image src={MonkeyGroup} alt="Monkey Group" unoptimized={true} />
       </section>
       <section className="section-lession">
         <h1>

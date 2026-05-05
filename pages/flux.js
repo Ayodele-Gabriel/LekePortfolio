@@ -100,7 +100,7 @@ export default function Flux() {
         <div className="row">
           <div className="col-1">
             <header>
-              <Image src={PieGraph} alt="pie chart" />
+              <Image src={PieGraph} alt="pie chart" unoptimized={true} />
               <p>Problem One</p>
               <h2>
                 Only 20%-25% of newly registered users get verified leading to a
@@ -136,7 +136,7 @@ export default function Flux() {
                     Increase in business expenses as a result of unused features
                   </h2>
                 </header>
-                <Image src={graph} alt="graph" />
+                <Image src={graph} alt="graph" unoptimized={true} />
                 <div className="bottom-container">
                   <p>
                     We were able to identify some set of features with low
@@ -203,7 +203,7 @@ export default function Flux() {
             </div>
           </div>
           <div className="col-2">
-            <Image src={Samuel} alt="Samuel" />
+            <Image src={Samuel} alt="Samuel" unoptimized={true} />
           </div>
         </div>
       </section>
@@ -221,7 +221,7 @@ export default function Flux() {
               </p>
             </header>
             <div className="img-container">
-              <Image src={fluxVirtualCard} alt="virtual card" />
+              <Image src={fluxVirtualCard} alt="virtual card" unoptimized={true} />
             </div>
           </div>
         </div>
@@ -245,7 +245,7 @@ export default function Flux() {
               </p>
             </header>
             <div className="img-container">
-              <Image src={fluxUtilities} alt="virtual card" />
+              <Image src={fluxUtilities} alt="virtual card" unoptimized={true} />
             </div>
           </div>
         </div>
@@ -270,7 +270,7 @@ export default function Flux() {
           add money other than their virtual account numbers. This led to a
           significant drop in daily funding related support ticket from 52 to 4
         </p>
-        <Image src={fluxGroup} alt="flux group" />
+        <Image src={fluxGroup} alt="flux group" unoptimized={true} />
       </section>
       <section className="section-exciting">
         <div className="row">
@@ -289,7 +289,7 @@ export default function Flux() {
           </div>
         </div>
         <div className="img-container">
-          <Image src={fluxBrowser} alt="fluxAuth" />
+          <Image src={fluxBrowser} alt="fluxAuth" unoptimized={true} />
         </div>
       </section>
       <section className="section-impact">

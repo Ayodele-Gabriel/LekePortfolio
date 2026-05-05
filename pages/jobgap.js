@@ -143,7 +143,8 @@ export default function JobGap() {
               alt="Original 7-step onboarding form — step 2 of 7 showing work & career preferences"
               width={1200}
               height={800}
-              style={{ width: "100%", height: "auto" }}
+              layout="responsive"
+              unoptimized={true}
             />
             <p className="img-caption">Original 7-step onboarding — step 2/7. Hotjar recordings showed steep drop-off from this point.</p>
           </div>
@@ -165,7 +166,8 @@ export default function JobGap() {
               alt="Hotjar session analytics showing 831 sessions, 18:27 avg duration — behavioural data analysis"
               width={1200}
               height={800}
-              style={{ width: "100%", height: "auto" }}
+              layout="responsive"
+              unoptimized={true}
             />
             <p className="img-caption">Hotjar behavioural data analysis: 831 sessions, 18:27 avg. session duration. Top-clicked CTA was "Sign In" — users were returning, not converting.</p>
           </div>
@@ -207,25 +209,25 @@ export default function JobGap() {
           <div className="comp-grid">
             <div className="comp-item">
               <div className="comp-img">
-                <Image src={CompRestore1} alt="Restore fitness app — paywall after personalised value" width={1200} height={800} style={{ width: "100%", height: "auto" }} />
+                <Image src={CompRestore1} alt="Restore fitness app — paywall after personalised value" width={1200} height={800} layout="responsive" unoptimized={true} />
               </div>
               <p className="comp-label">Restore — paywall deferred until after personalised value is shown</p>
             </div>
             <div className="comp-item">
               <div className="comp-img">
-                <Image src={CompRestore2} alt="Restore fitness app — onboarding screen" width={1200} height={800} style={{ width: "100%", height: "auto" }} />
+                <Image src={CompRestore2} alt="Restore fitness app — onboarding screen" width={1200} height={800} layout="responsive" unoptimized={true} />
               </div>
               <p className="comp-label">Restore — progressive data collection, minimal friction per step</p>
             </div>
             <div className="comp-item">
               <div className="comp-img comp-img--mobile">
-                <Image src={CompPredict} alt="Fitness app personalised prediction screen — 'We predict you'll be 50.2kg by September 4'" width={800} height={1200} style={{ width: "100%", height: "auto" }} />
+                <Image src={CompPredict} alt="Fitness app personalised prediction screen — 'We predict you'll be 50.2kg by September 4'" width={800} height={1200} layout="responsive" unoptimized={true} />
               </div>
               <p className="comp-label">Value-first prediction: personalised output shown before any payment ask</p>
             </div>
             <div className="comp-item">
               <div className="comp-img comp-img--mobile">
-                <Image src={CompCoinSnap} alt="CoinSnap app home screen — value demonstrated immediately" width={800} height={1200} style={{ width: "100%", height: "auto" }} />
+                <Image src={CompCoinSnap} alt="CoinSnap app home screen — value demonstrated immediately" width={800} height={1200} layout="responsive" unoptimized={true} />
               </div>
               <p className="comp-label">CoinSnap — core value (identify + grade) surface-level from home screen</p>
             </div>
@@ -264,11 +266,11 @@ export default function JobGap() {
             {/* Onboarding field screenshots */}
             <div className="img-pair">
               <div className="img-pair__item img-shadow">
-                <Image src={OnboardJobTitles} alt="Onboarding job titles field — open text input replacing dropdowns" width={1200} height={800} style={{ width: "100%", height: "auto" }} />
+                <Image src={OnboardJobTitles} alt="Onboarding job titles field — open text input replacing dropdowns" width={1200} height={800} layout="responsive" unoptimized={true} />
                 <p className="img-caption">Open-text job title field replacing dropdowns — support tickets about missing titles stopped immediately.</p>
               </div>
               <div className="img-pair__item img-shadow">
-                <Image src={OnboardBlacklist} alt="Onboarding company and industry exclusion (blacklist) feature" width={1200} height={800} style={{ width: "100%", height: "auto" }} />
+                <Image src={OnboardBlacklist} alt="Onboarding company and industry exclusion (blacklist) feature" width={1200} height={800} layout="responsive" unoptimized={true} />
                 <p className="img-caption">Company & industry exclusion list — users could tell the AI which employers to avoid. This single feature visibly increased trust.</p>
               </div>
             </div>
@@ -319,7 +321,7 @@ export default function JobGap() {
                 submitted automatically on your behalf."
               </p>
               <div className="dashboard-img img-shadow">
-                <Image src={FreeDashboard} alt="Free dashboard — locked job previews and upgrade prompt" width={1200} height={800} style={{ width: "100%", height: "auto" }} />
+                <Image src={FreeDashboard} alt="Free dashboard — locked job previews and upgrade prompt" width={1200} height={800} layout="responsive" unoptimized={true} />
               </div>
             </div>
             <div className="dashboard-card dashboard-card--paid">
@@ -333,7 +335,7 @@ export default function JobGap() {
                 who entrusted the platform with their job search.
               </p>
               <div className="dashboard-img img-shadow">
-                <Image src={PaidDashV2} alt="Paid dashboard — applications submitted, target roles, target salary" width={1200} height={800} style={{ width: "100%", height: "auto" }} />
+                <Image src={PaidDashV2} alt="Paid dashboard — applications submitted, target roles, target salary" width={1200} height={800} layout="responsive" unoptimized={true} />
               </div>
             </div>
           </div>
@@ -345,19 +347,19 @@ export default function JobGap() {
             <div className="evolution-row">
               <div className="evolution-item">
                 <div className="img-shadow">
-                  <Image src={PaidDashV1} alt="Paid dashboard v1 — early version" width={1200} height={800} style={{ width: "100%", height: "auto" }} />
+                  <Image src={PaidDashV1} alt="Paid dashboard v1 — early version" width={1200} height={800} layout="responsive" unoptimized={true} />
                 </div>
                 <span className="evo-label">v1 — Early dashboard (missing target salary, no nav avatars)</span>
               </div>
               <div className="evolution-item">
                 <div className="img-shadow">
-                  <Image src={PaidDashClean} alt="Paid dashboard — clean view without sidebar" width={1200} height={800} style={{ width: "100%", height: "auto" }} />
+                  <Image src={PaidDashClean} alt="Paid dashboard — clean view without sidebar" width={1200} height={800} layout="responsive" unoptimized={true} />
                 </div>
                 <span className="evo-label">v2 — Cleaner layout, sidebar collapsed for focus</span>
               </div>
               <div className="evolution-item">
                 <div className="img-shadow">
-                  <Image src={PaidDashV2} alt="Paid dashboard v3 — target salary added, nav avatar" width={1200} height={800} style={{ width: "100%", height: "auto" }} />
+                  <Image src={PaidDashV2} alt="Paid dashboard v3 — target salary added, nav avatar" width={1200} height={800} layout="responsive" unoptimized={true} />
                 </div>
                 <span className="evo-label">v3 — Final: target salary surfaced, profile avatar added</span>
               </div>
@@ -369,7 +371,7 @@ export default function JobGap() {
             <h3>Transparency as a Retention Tool</h3>
             <p>Paid users could open any submitted application and see exactly what the AI filled in — CV, cover letter, personal information, and form answers. This visibility was critical to trust.</p>
             <div className="img-single img-shadow">
-              <Image src={AppTransparency} alt="Application detail view — showing exactly how JobgapAI filled in personal info, work info and CV for each role" width={1200} height={800} style={{ width: "100%", height: "auto" }} />
+              <Image src={AppTransparency} alt="Application detail view — showing exactly how JobgapAI filled in personal info, work info and CV for each role" width={1200} height={800} layout="responsive" unoptimized={true} />
               <p className="img-caption">Application detail view: full transparency into every field the AI submitted — personal info, work authorisation, salary expectation, CV and cover letter.</p>
             </div>
           </div>
@@ -404,7 +406,7 @@ export default function JobGap() {
 
           {/* Pricing card screenshot */}
           <div className="img-single img-shadow img-narrow">
-            <Image src={PricingCard} alt="Professional plan pricing card — $469 one-time, $0.72/job, Afterpay and Klarna instalments" width={1200} height={800} style={{ width: "100%", height: "auto" }} />
+            <Image src={PricingCard} alt="Professional plan pricing card — $469 one-time, $0.72/job, Afterpay and Klarna instalments" width={1200} height={800} layout="responsive" unoptimized={true} />
             <p className="img-caption">Final pricing card: $469 one-time, instalment options via Afterpay & Klarna. "One-time payment. No subscription." stated prominently.</p>
           </div>
         </div>
@@ -440,11 +442,11 @@ export default function JobGap() {
           {/* Landing page screenshots */}
           <div className="landing-screens">
             <div className="img-shadow">
-              <Image src={LandingEarly} alt="Early landing page — 'Job Hunting is Exhausting, We Make it Effortless'" width={1200} height={800} style={{ width: "100%", height: "auto" }} />
+              <Image src={LandingEarly} alt="Early landing page — 'Job Hunting is Exhausting, We Make it Effortless'" width={1200} height={800} layout="responsive" unoptimized={true} />
               <p className="img-caption">Early version — generic pain framing, feature-led copy</p>
             </div>
             <div className="img-shadow">
-              <Image src={LandingFinal} alt="Final landing page — 'Land your dream job without sending hundreds of applications every week'" width={1200} height={800} style={{ width: "100%", height: "auto" }} />
+              <Image src={LandingFinal} alt="Final landing page — 'Land your dream job without sending hundreds of applications every week'" width={1200} height={800} layout="responsive" unoptimized={true} />
               <p className="img-caption">Final version — outcome-led headline, one-time payment stated in hero, dual CTA</p>
             </div>
           </div>
@@ -483,15 +485,15 @@ export default function JobGap() {
           {/* Retention email screenshots */}
           <div className="email-grid">
             <div className="email-item img-shadow">
-              <Image src={EmailOpen} alt="Personalised retention email — 'Interested in your thoughts on recent job opportunities, Abdulrahim'" width={800} height={1200} style={{ width: "100%", height: "auto" }} />
+              <Image src={EmailOpen} alt="Personalised retention email — 'Interested in your thoughts on recent job opportunities, Abdulrahim'" width={800} height={1200} layout="responsive" unoptimized={true} />
               <p className="img-caption">Subject line: personalised with recipient name and specific role context — not a generic re-engagement blast.</p>
             </div>
             <div className="email-item img-shadow">
-              <Image src={EmailBody} alt="Email body — personalised job match at Perplexity and Sanity.io with tailored fit analysis" width={800} height={1200} style={{ width: "100%", height: "auto" }} />
+              <Image src={EmailBody} alt="Email body — personalised job match at Perplexity and Sanity.io with tailored fit analysis" width={800} height={1200} layout="responsive" unoptimized={true} />
               <p className="img-caption">Body: specific role, company context, personalised fit rationale — drafted by the AI from the user's live profile.</p>
             </div>
             <div className="email-item img-shadow">
-              <Image src={EmailClose} alt="Email close — JobgapAI Career Assistant sign-off with application link and next steps" width={800} height={1200} style={{ width: "100%", height: "auto" }} />
+              <Image src={EmailClose} alt="Email close — JobgapAI Career Assistant sign-off with application link and next steps" width={800} height={1200} layout="responsive" unoptimized={true} />
               <p className="img-caption">Sign-off: explicit offer to handle the application + direct application link. Sarah (JobgapAI Career Assistant) as sender persona.</p>
             </div>
           </div>

@@ -166,14 +166,14 @@ export default function CyptoInfra() {
         <div className="row">
           <div className="double-col">
             <div className="col">
-              <Image src={thirtyFive5} alt="thirtyFive5" />
+              <Image src={thirtyFive5} alt="thirtyFive5" unoptimized={true} />
               <h3 style={{ marginTop: "2em" }}>
                 Over $350k in transaction volume within 3 months of launch
               </h3>
             </div>
             <div className="col">
               <div>
-                <Image src={StarRow} alt="StarRow" />
+                <Image src={StarRow} alt="StarRow" unoptimized={true} />
                 <h3 style={{ marginTop: "1.25em" }}>
                   87+ customer rated: EXCELLENT{" "}
                 </h3>
@@ -187,7 +187,7 @@ export default function CyptoInfra() {
           <div className="col col-2">
             <h3>Featured in over 25+ tech publications and news articles</h3>
             <div className="img-cover">
-              <Image src={featured} alt="featured" />
+              <Image src={featured} alt="featured" unoptimized={true} />
             </div>
             <div className="lists">
               {[
@@ -227,7 +227,7 @@ export default function CyptoInfra() {
               this gap within Payso, product adoption and transaction volume
               would increase. We successfully integrated with a crypto-fiat rail
               to help power this. So users receive crypto payment directly into
-              their bank account.{" "}
+              your bank account.{" "}
             </p>
 
             <div className="lists">
@@ -242,7 +242,7 @@ export default function CyptoInfra() {
               ))}
             </div>
             <div className="img-container">
-              <Image src={BankAcc} alt="Bank Acc" />
+              <Image src={BankAcc} alt="Bank Acc" unoptimized={true} />
             </div>
           </div>
           <div className="col col-2">
@@ -279,7 +279,7 @@ export default function CyptoInfra() {
             between designers and developers.
           </p>
         </header>
-        <Image src={Dashboard} alt="Dashboard" />
+        <Image src={Dashboard} alt="Dashboard" unoptimized={true} />
       </section>
       <section className="section-bigquote">
         <BigQuote />
@@ -351,7 +351,7 @@ export default function CyptoInfra() {
               process crypto transfers into 40+ fiat currencies in 170+
               countries.
             </p>
-            <Image src={Globe} alt="Globe" />
+            <Image src={Globe} alt="Globe" unoptimized={true} />
           </div>
         </div>
       </section>
@@ -365,7 +365,7 @@ export default function CyptoInfra() {
           <a href="https://core.pay.so/">Visit Pay.so CORE website</a>
         </div>
         <div className="asset-row">
-          <Image src={CryptoWebsites} alt="CryptoWebsites" />
+          <Image src={CryptoWebsites} alt="CryptoWebsites" unoptimized={true} />
         </div>
       </section>
     </Container>
